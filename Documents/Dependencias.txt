@@ -1,0 +1,10 @@
+
+        Instale os seguintes PACOTES 
+        npm init -y
+        npm install
+        npm install express --save, 
+        npm install ejs --save (depende do uso)
+        npm install mongoose --save 
+        npm install dotenv --save
+        npm install jsonwebtoken --save
+        npm install bcryptjs --save 

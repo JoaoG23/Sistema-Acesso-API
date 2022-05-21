@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/index.css">
+    <link rel="icon" type="image/x-icon" href="./Assets/icons/logo-sistema-joao-acesso.svg">
+
+    <title>Checkin</title>
+</head>
+<body>
+    <section root-modal="modal">
+    </section>
+    <main class="container-flex center-col roxo-claro">
+    <section class='container-flex coluna center-col roxo px-3 altura-total redondo-4'>
+            <section class="container-flex coluna center-v">
+                <img src="./Assets/icons/areaCheckinMaior.svg"/>
+                <h3 class="texto-branco">Realize o seu Checkin Aqui abaixo:</h3>
+            </section>
+            
+            <form class='container-grid'>
+                <label class="texto-branco fonte-centralizada">Credencial</label>
+                <input id="credencial" class='input-style-inicial p-2 fonte-evidente' type="text" placeholder="Coloque o código da sua credencial" required maxlength="17">
+                <label class="texto-branco fonte-centralizada">Selecione a Direcão abaixo:</label>
+                <select  id="direcao"  class="input-style-inicial p-2 fonte-mediana" required >
+                    <option value="">Selecione sua opcão</option>
+                    <option value="Entrada">Entrada</option>
+                    <option value="Saida">Saida</option>
+                </select>
+                <span id="msgValidacao" class="alerta nao-visivel p-2"> Os campos não podem ser vazios  </span>
+                <div class='container-grid col-1-2 lacuna-10 my-2'>
+                    <button id="checar" class='btn verdinho texto-branco fonte-mediana btn-hoverar p-3' disabled >Checkin<img src='./Assets/icons/tudocerto.svg'/></button>
+                </div>
+            </form>
+            <a href="./index.html">
+                <button class="btn amarelo texto-branco fonte-mediana p-3">Voltar Login</button>
+            </a>
+        </section>
+    </main>
+    <script type="module" src="./Scripts/Controller/CheckinController.js"></script>
+</body>
+</html>

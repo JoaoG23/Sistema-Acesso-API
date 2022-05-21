@@ -1,0 +1,2517 @@
+{
+	"log": {
+		"version": "1.2",
+		"creator": {
+			"name": "Insomnia REST Client",
+			"version": "insomnia.desktop.app:v2022.3.0"
+		},
+		"entries": [
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 167.383,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3000/usuario/lista/jzr98for",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "803"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"323-fwazJ92hQNUJmMuKRbdov1YxPLo\""
+						},
+						{
+							"name": "Date",
+							"value": "Sun, 01 May 2022 22:36:59 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 803,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id_usuario\":\"jzr98for\",\"foto_usuario\":\"\",\"nome_usuario\":\"Jose Alquino\",\"sobrenome_usuario\":\"Ramos\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"99388838\",\"telefone_usuario\":\"(31)3333-0000\",\"email_usuario\":\"email@email.com\",\"empresa_usuario\":\"Somaria\",\"tipo_usuario\":\"Comum\",\"setor_usuario\":\"Administracão\",\"pais_usuario\":\"Santa Cantaria\",\"estado_usuario\":\"Soéraia\",\"cidade_usuario\":\"Bh\",\"rua_usuario\":\"Rua Radialista Segipe\",\"numero_usuario\":\"33\",\"crendencial_usuario\":\"123456789\",\"id_credencial\":\"jzr98for\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-07-31T19:36:51.636969\",\"data_final_credencial\":\"2024-03-19T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":200,\"id_afastamento\":\"96elqd8z\",\"nome_afastamento\":\"Viagem de Negocios\",\"fg_tempo_afastamento\":\"91 days\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 167.383,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Busca Usuário pelo ID"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 68.448,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3000/usuario/listaNome/Maria",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "739"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"2e3-PsiYP83u3W6ZD7U2gvHqdXDXi3Q\""
+						},
+						{
+							"name": "Date",
+							"value": "Sat, 07 May 2022 20:55:10 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 739,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[{\"id_usuario\":\"fx1suc2t\",\"nome_usuario\":\"Maria\",\"sobrenome_usuario\":\"da Gloria\",\"credencial\":\"BMY6YXWB\",\"situacao_credencial\":\"ATIVA\",\"data_final_credencial\":\"2025-08-20T03:00:00.000Z\",\"credito_credencial\":1016,\"email_usuario\":\"email@email.com\"},{\"id_usuario\":\"isvipnf5\",\"nome_usuario\":\"Maria\",\"sobrenome_usuario\":\"JavaScript\",\"credencial\":\"TTOI38888\",\"situacao_credencial\":\"ATIVA\",\"data_final_credencial\":\"2027-08-20T03:00:00.000Z\",\"credito_credencial\":1566,\"email_usuario\":\"email@email.com\"},{\"id_usuario\":\"6umc9hqu\",\"nome_usuario\":\"Maria\",\"sobrenome_usuario\":\"Peladeira\",\"credencial\":\"T38888\",\"situacao_credencial\":\"ATIVA\",\"data_final_credencial\":\"2027-08-20T03:00:00.000Z\",\"credito_credencial\":1566,\"email_usuario\":\"email@email.com\"}]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 68.448,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Lista usuário pelo nome "
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 163.49099999999999,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3000/usuario/listapagina/3",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "1258"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"4ea-cKvXB3zM4Xf8pC5wSCbaWA0H0Gk\""
+						},
+						{
+							"name": "Date",
+							"value": "Sat, 07 May 2022 20:00:39 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 1258,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"contagem\":5,\"dados\":[{\"id_usuario\":\"ip9uausi\",\"nome_usuario\":\"Mariana\",\"sobrenome_usuario\":\"Santos\",\"credencial\":\"AAA\",\"situacao_credencial\":\"ATIVA\",\"data_final_credencial\":\"2025-08-20T03:00:00.000Z\",\"credito_credencial\":28,\"email_usuario\":\"email@email.com\"},{\"id_usuario\":\"jzr98for\",\"nome_usuario\":\"Jose Alquino\",\"sobrenome_usuario\":\"Ramos\",\"credencial\":\"123456789\",\"situacao_credencial\":\"ATIVA\",\"data_final_credencial\":\"2024-03-19T03:00:00.000Z\",\"credito_credencial\":200,\"email_usuario\":\"email@email.com\"},{\"id_usuario\":\"h1g1dqw7\",\"nome_usuario\":\"Cleopatra\",\"sobrenome_usuario\":\"do Egito\",\"credencial\":\"15BB69DA\",\"situacao_credencial\":\"ATIVA\",\"data_final_credencial\":\"2025-08-20T03:00:00.000Z\",\"credito_credencial\":26,\"email_usuario\":\"email@email.com\"},{\"id_usuario\":\"ay5qpe73\",\"nome_usuario\":\"Madalena\",\"sobrenome_usuario\":\"Ramos Acuncacao\",\"credencial\":\"L8XYLT1F\",\"situacao_credencial\":\"ATIVA\",\"data_final_credencial\":\"2025-08-20T03:00:00.000Z\",\"credito_credencial\":1012,\"email_usuario\":\"email@email.com\"},{\"id_usuario\":\"7rf1ztky\",\"nome_usuario\":\"Lucia\",\"sobrenome_usuario\":\"da Gloria\",\"credencial\":\"MI8LZ5BP\",\"situacao_credencial\":\"ATIVA\",\"data_final_credencial\":\"2025-08-20T03:00:00.000Z\",\"credito_credencial\":118,\"email_usuario\":\"email@email.com\"}]}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 163.49099999999999,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Busca Usuário com Pagina"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 83.19200000000001,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3000/usuario/lista",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "8915"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"22d3-yuIvdO9xyMtvIeqlgnwds1QCF6w\""
+						},
+						{
+							"name": "Date",
+							"value": "Sat, 07 May 2022 20:55:21 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 8915,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[{\"id_usuario\":\"9ddn9e2w\",\"foto_usuario\":\"\",\"nome_usuario\":\"Josefa\",\"sobrenome_usuario\":\"Do Milagre\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"44433000\",\"credencial\":\"3PGN6MOW\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-03-25T22:17:35.242656\",\"data_final_credencial\":\"2025-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":26},{\"id_usuario\":\"fx1suc2t\",\"foto_usuario\":\"\",\"nome_usuario\":\"Maria\",\"sobrenome_usuario\":\"da Gloria\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"44433000\",\"credencial\":\"BMY6YXWB\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-03-25T22:19:41.383744\",\"data_final_credencial\":\"2025-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":1016},{\"id_usuario\":\"8abeb5ov\",\"foto_usuario\":\"\",\"nome_usuario\":\"Chica\",\"sobrenome_usuario\":\"da Silca\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"44433000\",\"credencial\":\"BYJBGZ56\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-03-25T22:20:31.26799\",\"data_final_credencial\":\"2025-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":1011},{\"id_usuario\":\"g5eop7ly\",\"foto_usuario\":\"\",\"nome_usuario\":\"Alexandre\",\"sobrenome_usuario\":\"Caldeira Nascimento\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"4344444\",\"credencial\":\"E1SLL0KR\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-03-25T22:21:29.101991\",\"data_final_credencial\":\"2025-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":1019},{\"id_usuario\":\"7x7vseod\",\"foto_usuario\":\"\",\"nome_usuario\":\"Luis\",\"sobrenome_usuario\":\"Soares Solveis\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"4344444\",\"credencial\":\"W28EX63L\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-03-25T22:22:46.235277\",\"data_final_credencial\":\"2025-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":1015},{\"id_usuario\":\"iar7nh1n\",\"foto_usuario\":\"\",\"nome_usuario\":\"Salomao\",\"sobrenome_usuario\":\"Quake\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"4344444\",\"credencial\":\"THBSHI995A\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-12-20T23:43:00.356592\",\"data_final_credencial\":\"2025-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":1012},{\"id_usuario\":\"34xl8ykw\",\"foto_usuario\":\"\",\"nome_usuario\":\"Jorge\",\"sobrenome_usuario\":\"Lopes\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"4344444\",\"credencial\":\"619ZC9\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-12-20T23:56:01.946362\",\"data_final_credencial\":\"2025-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":1019},{\"id_usuario\":\"kr5ibetu\",\"foto_usuario\":\"\",\"nome_usuario\":\"Joao Guilherme\",\"sobrenome_usuario\":\"Tito de Jesus\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"44444444\",\"credencial\":\"93S97NQR2\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-03-26T12:21:48.673948\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":45453},{\"id_usuario\":\"2umur8a9\",\"foto_usuario\":\"\",\"nome_usuario\":\"Gaspazinho\",\"sobrenome_usuario\":\"do Pertepan\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"521111\",\"credencial\":\"55558GGS\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-03-26T20:13:59.801327\",\"data_final_credencial\":\"2021-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":45452},{\"id_usuario\":\"5tqa85sn\",\"foto_usuario\":\"\",\"nome_usuario\":\"Nobre\",\"sobrenome_usuario\":\"Vasco Ramos\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"521111\",\"credencial\":\"909888*?#@*\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-03-26T20:17:31.58774\",\"data_final_credencial\":\"2021-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":200},{\"id_usuario\":\"aacjrsof\",\"foto_usuario\":\"\",\"nome_usuario\":\"Dilma\",\"sobrenome_usuario\":\"Roussef\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"521111\",\"credencial\":\"909888*?#!!*\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-03-26T20:18:41.535763\",\"data_final_credencial\":\"2029-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":200},{\"id_usuario\":\"9ldds7xc\",\"foto_usuario\":\"\",\"nome_usuario\":\"Romero Brito\",\"sobrenome_usuario\":\"Abuquerque\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"0214578552\",\"credencial\":\"987456321\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-04-01T21:42:36.740061\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":617},{\"id_usuario\":\"bk5c8r64\",\"foto_usuario\":\"\",\"nome_usuario\":\"Ronaldo\",\"sobrenome_usuario\":\"Perninha de Grilo\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"9999666669\",\"credencial\":\"EG48GUZUE\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-04-01T21:51:49.612038\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":6092},{\"id_usuario\":\"f7o0nzam\",\"foto_usuario\":\"\",\"nome_usuario\":\"Kleuza\",\"sobrenome_usuario\":\"Cheira Angú\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"8888666\",\"credencial\":\"K8PWSX280\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-04-01T21:53:27.551335\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":498},{\"id_usuario\":\"fuv2jd6x\",\"foto_usuario\":\"\",\"nome_usuario\":\"Romilda\",\"sobrenome_usuario\":\"Caxalote do Mar\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"4545555555\",\"credencial\":\"DU50UW9FB\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-04-01T21:54:35.99551\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":498},{\"id_usuario\":\"hnxlsopp\",\"foto_usuario\":\"\",\"nome_usuario\":\"Marcin\",\"sobrenome_usuario\":\"Do Pneu\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"54444\",\"credencial\":\"WIOP8BM8N\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-04-01T21:55:28.725897\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":497},{\"id_usuario\":\"b8ll1fta\",\"foto_usuario\":\"\",\"nome_usuario\":\"Haanna\",\"sobrenome_usuario\":\"Montana\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"44432222\",\"credencial\":\"TTOI8888\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-04-29T21:17:00.83651\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":1566},{\"id_usuario\":\"isvipnf5\",\"foto_usuario\":\"\",\"nome_usuario\":\"Maria\",\"sobrenome_usuario\":\"JavaScript\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"44432222\",\"credencial\":\"TTOI38888\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-04-29T22:01:01.526976\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":1566},{\"id_usuario\":\"ip9uausi\",\"foto_usuario\":\"\",\"nome_usuario\":\"Mariana\",\"sobrenome_usuario\":\"Santos\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"3344434\",\"credencial\":\"AAA\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-03-23T21:36:48.853064\",\"data_final_credencial\":\"2025-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":28},{\"id_usuario\":\"h1g1dqw7\",\"foto_usuario\":\"\",\"nome_usuario\":\"Cleopatra\",\"sobrenome_usuario\":\"do Egito\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"44433000\",\"credencial\":\"15BB69DA\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-05-02T19:38:58.930968\",\"data_final_credencial\":\"2025-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":26},{\"id_usuario\":\"ay5qpe73\",\"foto_usuario\":\"\",\"nome_usuario\":\"Madalena\",\"sobrenome_usuario\":\"Ramos Acuncacao\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"4344444\",\"credencial\":\"L8XYLT1F\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-05-02T20:14:24.091099\",\"data_final_credencial\":\"2025-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":1012},{\"id_usuario\":\"7rf1ztky\",\"foto_usuario\":\"\",\"nome_usuario\":\"Lucia\",\"sobrenome_usuario\":\"da Gloria\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"44433000\",\"credencial\":\"MI8LZ5BP\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-05-02T20:16:43.635812\",\"data_final_credencial\":\"2025-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":118},{\"id_usuario\":\"6umc9hqu\",\"foto_usuario\":\"\",\"nome_usuario\":\"Maria\",\"sobrenome_usuario\":\"Peladeira\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"44432222\",\"credencial\":\"T38888\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-05-07T17:00:48.903152\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":1566},{\"id_usuario\":\"jzr98for\",\"foto_usuario\":\"\",\"nome_usuario\":\"Jose Alquino\",\"sobrenome_usuario\":\"Ramos\",\"tipo_documento_usuario\":\"CPF\",\"numero_documento_usuario\":\"99388838\",\"credencial\":\"123456789\",\"situacao_credencial\":\"ATIVA\",\"data_inicial_credencial\":\"2022-08-06T17:00:59.860521\",\"data_final_credencial\":\"2024-03-19T00:00:00\",\"direcao\":\"Entrada\",\"credito_credencial\":200}]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 83.19200000000001,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Lista Todos"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 330.761,
+				"request": {
+					"method": "PUT",
+					"url": "http://localhost:3000/usuario/edit/",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-type",
+							"value": "application/json"
+						},
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [
+						{
+							"name": "",
+							"value": ""
+						}
+					],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "\t\t\t\n\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"id_credencial\":\"jzr98for\",\n\t\t\t\t\t\t\t\t\t\t\t   \"situacao_credencial\":\"ATIVA\",\n\t\t\t\t\t\t\t\t\t\t\t   \"data_inicial_credencial\":\"2021-12-20\",\n\t\t\t\t\t\t\t\t\t\t\t   \"data_final_credencial\":\"2024-03-19\",\n\t\t\t\t\t\t\t\t\t\t\t   \"direcao\":\"Entrada\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"credencial\":\"123456789\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"credito_credencial\":200,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"tempo_afastamento\":\"91 days\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"id_usuario\":\"jzr98for\",\n\t\t\t\t\t\t\t\t\t\t\t   \"foto_usuario\":\"\",\n\t\t\t\t\t\t\t\t\t\t\t   \"nome_usuario\":\"Jose Alquino\",\n\t\t\t\t\t\t\t\t\t\t\t   \"sobrenome_usuario\":\"Ramos\",\n\t\t\t\t\t\t\t\t\t\t\t   \"tipo_documento_usuario\":\"CPF\",\n\t\t\t\t\t\t\t\t\t\t\t   \"numero_documento_usuario\":\"99388838\",\n\t\t\t\t\t\t\t\t\t\t\t   \"telefone_usuario\":\"(31)3333-0000\",\n\t\t\t\t\t\t\t\t\t\t\t   \"email_usuario\":\"email@email.com\",\n\t\t\t\t\t\t\t\t\t\t\t   \"empresa_usuario\":\"Somaria\",\n\t\t\t\t\t\t\t\t\t\t\t   \"tipo_usuario\":\"Comum\",\n\t\t\t\t\t\t\t\t\t\t\t   \"setor_usuario\":\"Administracão\",\n\t\t\t\t\t\t\t\t\t\t\t   \"pais_usuario\":\"Brasil\",\n\t\t\t\t\t\t\t\t\t\t\t   \"estado_usuario\":\"Minas Gerais\",\n\t\t\t\t\t\t\t\t\t\t\t   \"cidade_usuario\":\"Belo Horizonte\",\n\t\t\t\t\t\t\t\t\t\t\t   \"rua_usuario\":\"Rua Radialista Murilo Claudio\",\n\t\t\t\t\t\t\t\t\t\t\t   \"numero_usuario\":\"33\",\n\t\t\t\t\t\t\t\t\t\t\t   \"crendencial_usuario\":\"123456789\"\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t   }\t\t\t\t\t\t\t\t\n\t\t\t",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "56"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"38-KSBbe6SMcCZG+up19YGi9fhzyCs\""
+						},
+						{
+							"name": "Date",
+							"value": "Sat, 07 May 2022 21:02:11 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 56,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"situacao\":true,\"msg\":\"Usuario Atualizado com sucesso\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 330.761,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Editar Usuário"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 34.016,
+				"request": {
+					"method": "DELETE",
+					"url": "http://localhost:3000/usuario/remover",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-type",
+							"value": "application/json"
+						},
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [
+						{
+							"name": "",
+							"value": ""
+						}
+					],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "\t{\n\t\t\t\"id_usuario\":\"a4i20x20\"\n\t}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "54"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"36-CYNcSZ5pXPhuXEtQnyR5izP0WP0\""
+						},
+						{
+							"name": "Date",
+							"value": "Sat, 26 Mar 2022 23:12:39 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 54,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"situacao\":true,\"msg\":\"Usuario removido com sucesso\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 34.016,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Remove Usuário e Credenciais"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 78.58,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3000/usuario/teste/",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-type",
+							"value": "application/json"
+						},
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [
+						{
+							"name": "",
+							"value": ""
+						}
+					],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "\t\t{\n\t\t\t\"id_usuario\":5,\n\t\t\t\"credencial\":\"DD\"\n\t\t}\n\t\t\t\t\t\t\t\t\t\t\t",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "101"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"65-9zXu/L5ox+ix5BivuC4Hus8KdEQ\""
+						},
+						{
+							"name": "Date",
+							"value": "Sat, 02 Apr 2022 00:07:48 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 101,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id\":\"fi2eevmr\",\"requisicaoTeste\":{\"id_usuario\":5,\"credencial\":\"DD\"},\"nova\":\"\\\"insomnia/2022.2.1\\\"\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 78.58,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Teste Requests"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 44.885,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3000/usuario/inserir/",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-type",
+							"value": "application/json"
+						},
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [
+						{
+							"name": "",
+							"value": ""
+						}
+					],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t   \"situacao_credencial\":\"ATIVA\",\n\t\t\t\t\t\t\t\t\t\t\t   \"data_inicial_credencial\":\"2021-02-20\",\n\t\t\t\t\t\t\t\t\t\t\t   \"data_final_credencial\":\"2027-08-20\",\n\t\t\t\t\t\t\t\t\t\t\t   \"direcao\":\"Entrada\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"credencial\":\"T38888\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"credito_credencial\":1566,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\"tempo_afastamento\":\"0 Days\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t   \"foto_usuario\":\"\",\n\t\t\t\t\t\t\t\t\t\t\t   \"nome_usuario\":\"Maria\",\n\t\t\t\t\t\t\t\t\t\t\t   \"sobrenome_usuario\":\"Peladeira\",\n\t\t\t\t\t\t\t\t\t\t\t   \"tipo_documento_usuario\":\"CPF\",\n\t\t\t\t\t\t\t\t\t\t\t   \"numero_documento_usuario\":\"44432222\",\n\t\t\t\t\t\t\t\t\t\t\t   \"telefone_usuario\":\"(31)2222-2222\",\n\t\t\t\t\t\t\t\t\t\t\t   \"email_usuario\":\"email@email.com\",\n\t\t\t\t\t\t\t\t\t\t\t   \"empresa_usuario\":\"\",\n\t\t\t\t\t\t\t\t\t\t\t   \"tipo_usuario\":\"Comum\",\n\t\t\t\t\t\t\t\t\t\t\t   \"setor_usuario\":\"Voador\",\n\t\t\t\t\t\t\t\t\t\t\t   \"pais_usuario\":\"Brasil\",\n\t\t\t\t\t\t\t\t\t\t\t   \"estado_usuario\":\"MG\",\n\t\t\t\t\t\t\t\t\t\t\t   \"cidade_usuario\":\"Belo Horizonte\",\n\t\t\t\t\t\t\t\t\t\t\t   \"rua_usuario\":\"\",\n\t\t\t\t\t\t\t\t\t\t\t   \"numero_usuario\":\"\",\n\t\t\t\t\t\t\t\t\t\t\t   \"crendencial_usuario\":\"T38888\"\n\t\t\t\t\t\t\t\t\t\t\t   }\t\t\t\t\t\t\t\t\n\t\t\t",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 201,
+					"statusText": "Created",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "54"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"36-uNug+yNw8O4OEYVGdtyT2z+ycvo\""
+						},
+						{
+							"name": "Date",
+							"value": "Sat, 07 May 2022 20:00:48 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 54,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"situacao\":true,\"msg\":\"Usuario inserido com sucesso\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 44.885,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Adiciona Usuários"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 225.644,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3000/usuario/afastamento/listar",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "297"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"129-4UjBFGq8a2pK9Kt3t82zHnJ+xGQ\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 18 May 2022 20:50:56 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 297,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[{\"id_afastamento\":\"2clfuscy\",\"nome_afastamento\":\"Sem afastamento \",\"fg_tempo_afastamento\":\"00:00:00\"},{\"id_afastamento\":\"96elqd8z\",\"nome_afastamento\":\"Viagem de Negocios\",\"fg_tempo_afastamento\":\"91 days\"},{\"id_afastamento\":\"360fti1g\",\"nome_afastamento\":\"Ferias\",\"fg_tempo_afastamento\":\"30 days\"}]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 225.644,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Lista Todos Tipos Afastamentos"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 150.575,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3000/relatorios/periodo",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [
+						{
+							"name": "credencial_buscada",
+							"value": "123456789"
+						},
+						{
+							"name": "data_inicial",
+							"value": "2022-05-01 06:12:22.34927"
+						},
+						{
+							"name": "data_final",
+							"value": "2022-05-09 14:44:22.34927"
+						}
+					],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "473"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"1d9-/PW/zYT3JuekSjnb7A+Md1shiTs\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 11 May 2022 19:49:23 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 473,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[{\"id_relatorio\":73,\"acesso_relatorio\":\"ACESSO LIBERADO\",\"nome_relatorio\":\"Romero Brito\",\"sobrenome_relatorio\":\"Abuquerque\",\"tipo_documento_relatorio\":\"\",\"numero_documento_relatorio\":\"\",\"credencial_relatorio\":\"987456321\",\"situacao_credencial_relatorio\":\"ATIVA\",\"direcao_relatorio\":\"Entrada\",\"data_acesso_relatorio\":\"2022-05-07T17:00:28.625786\",\"data_final_relatorio\":\"2027-08-20T00:00:00\",\"restam_acessos_relatorio\":618,\"situacao_afastamento_relatorio\":\"Sem afastamento \"}]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 150.575,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Lista relatorio por data e credencial"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 100.02,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3000/usuario/afastamento/listar/2clfuscy",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "101"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"65-0RjSeqa2J22pbXdquToENPXiTmA\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 18 May 2022 20:50:48 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 101,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id_afastamento\":\"2clfuscy\",\"nome_afastamento\":\"Sem afastamento \",\"fg_tempo_afastamento\":\"00:00:00\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 100.02,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Lista Afastamento por ID"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 121.5,
+				"request": {
+					"method": "PUT",
+					"url": "http://localhost:3000/usuario/afastamento/atualizar",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"id_afastamento\":\"360fti1g\",\n\t\"nome_afastamento\": \"Ferias\",\n\t\"tempo_afastamento\": \"30 Days\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "60"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"3c-ftbWYaSLaCVuwYAXGSuvNpfjck4\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 18 May 2022 19:56:42 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 60,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"situacao\":true,\"msg\":\"Afastamento atualizado com sucesso\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 121.5,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Atualizar Afastamento"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 9.963,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3000/usuario/afastamento/inserir",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"nome_afastamento\": \"Viagems\",\n\t\"fg_tempo_afastamento\": \"97 days\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 401,
+					"statusText": "Unauthorized",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "88"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"58-EtmV6mj50KGP6P9PddqaX6Swf0I\""
+						},
+						{
+							"name": "Date",
+							"value": "Sat, 02 Apr 2022 18:07:22 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 88,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"open\":false,\"msg\":\"voce ainda não logou no sistema! Por favor entre na rota logar!?\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 9.963,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Adicionar Tipos Afastamentos"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 163.864,
+				"request": {
+					"method": "DELETE",
+					"url": "http://localhost:3000/usuario/afastamento/remover",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"id_afastamento\":\"jwoe8vxa\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "58"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"3a-DzUZO4gFYYv/ZQZCd9A0/Y3AZvU\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 18 May 2022 20:50:42 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 58,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"situacao\":true,\"msg\":\"Afastamento DELETADO com sucesso\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 163.864,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Deletar Afastamento"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 89.639,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3000/acessos",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "6234"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"185a-Is72LMaWvRkGeMYHUCMQYIjZ8xA\""
+						},
+						{
+							"name": "Date",
+							"value": "Mon, 09 May 2022 00:01:36 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 6234,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[{\"id_acesso\":37,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Romero Brito\",\"sobrenome_acesso\":\"Abuquerque\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"987456321\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-05-07T20:00:28.625Z\",\"data_final_credencial\":\"2027-08-20T03:00:00.000Z\",\"restam_acessos\":618,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":36,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Ronaldo\",\"sobrenome_acesso\":\"Perninha de Grilo\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"EG48GUZUE\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T17:12:28.901Z\",\"data_final_credencial\":\"2027-08-20T03:00:00.000Z\",\"restam_acessos\":6093,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":35,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Chica\",\"sobrenome_acesso\":\"da Silca\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"BYJBGZ56\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T17:11:44.245Z\",\"data_final_credencial\":\"2025-08-20T03:00:00.000Z\",\"restam_acessos\":1012,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":34,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Chica\",\"sobrenome_acesso\":\"da Silca\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"BYJBGZ56\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T15:26:44.905Z\",\"data_final_credencial\":\"2025-08-20T03:00:00.000Z\",\"restam_acessos\":1013,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":33,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Josefa\",\"sobrenome_acesso\":\"Do Milagre\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"3PGN6MOW\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T13:03:52.980Z\",\"data_final_credencial\":\"2025-08-20T03:00:00.000Z\",\"restam_acessos\":27,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":32,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Josefa\",\"sobrenome_acesso\":\"Do Milagre\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"3PGN6MOW\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T13:03:46.218Z\",\"data_final_credencial\":\"2025-08-20T03:00:00.000Z\",\"restam_acessos\":28,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":31,\"situacao_do_acesso\":\"ACESSO NEGADO: Credencial vencida ou inativa no momento\",\"nome_acesso\":\"Gaspazinho\",\"sobrenome_acesso\":\"do Pertepan\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"55558GGS\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T13:03:22.349Z\",\"data_final_credencial\":\"2021-08-20T03:00:00.000Z\",\"restam_acessos\":45453,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":30,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Cleopatra\",\"sobrenome_acesso\":\"do Egito\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"15BB69DA\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T13:01:10.226Z\",\"data_final_credencial\":\"2025-08-20T03:00:00.000Z\",\"restam_acessos\":27,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":29,\"situacao_do_acesso\":\"ACESSO BARRADO\",\"nome_acesso\":\"Credencial Inexistente ou Sem Creditos\",\"sobrenome_acesso\":\"\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"34563217\",\"situacao_credencial\":\"INVALIDA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T13:00:35.440Z\",\"data_final_credencial\":\"2022-04-02T13:00:35.440Z\",\"restam_acessos\":0,\"situacao_afastamento\":\"Sem afastamento\"},{\"id_acesso\":28,\"situacao_do_acesso\":\"ACESSO BARRADO\",\"nome_acesso\":\"Credencial Inexistente ou Sem Creditos\",\"sobrenome_acesso\":\"\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"34563217\",\"situacao_credencial\":\"INVALIDA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T12:50:29.137Z\",\"data_final_credencial\":\"2022-04-02T12:50:29.137Z\",\"restam_acessos\":0,\"situacao_afastamento\":\"Sem afastamento\"},{\"id_acesso\":27,\"situacao_do_acesso\":\"ACESSO BARRADO\",\"nome_acesso\":\"Credencial Inexistente ou Sem Creditos\",\"sobrenome_acesso\":\"\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"34563217\",\"situacao_credencial\":\"INVALIDA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T12:41:19.197Z\",\"data_final_credencial\":\"2022-04-02T12:41:19.197Z\",\"restam_acessos\":0,\"situacao_afastamento\":\"Sem afastamento\"},{\"id_acesso\":26,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Romilda\",\"sobrenome_acesso\":\"Caxalote do Mar\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"DU50UW9FB\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T12:39:03.847Z\",\"data_final_credencial\":\"2027-08-20T03:00:00.000Z\",\"restam_acessos\":499,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":25,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Ronaldo\",\"sobrenome_acesso\":\"Perninha de Grilo\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"EG48GUZUE\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T12:18:48.915Z\",\"data_final_credencial\":\"2027-08-20T03:00:00.000Z\",\"restam_acessos\":6094,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":24,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Ronaldo\",\"sobrenome_acesso\":\"Perninha de Grilo\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"EG48GUZUE\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T11:58:25.152Z\",\"data_final_credencial\":\"2027-08-20T03:00:00.000Z\",\"restam_acessos\":6095,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":23,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Ronaldo\",\"sobrenome_acesso\":\"Perninha de Grilo\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"EG48GUZUE\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T11:52:43.776Z\",\"data_final_credencial\":\"2027-08-20T03:00:00.000Z\",\"restam_acessos\":6096,\"situacao_afastamento\":\"Sem afastamento \"}]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 89.639,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Visualizar Todos Acessos"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 88.436,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3000/acessos/contaQuantoHoje",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "1"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"1-Ct58LPl/ddAJl19Ncg0fpsGfSJc\""
+						},
+						{
+							"name": "Date",
+							"value": "Sun, 15 May 2022 19:36:52 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 1,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "9"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 88.436,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Quantos acesso Hoje"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 34.232,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3000/acessos/ultimo",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "425"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"1a9-JT6eR7b6mjfW/3vtdpbE9oW++CM\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 10 May 2022 19:26:47 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 425,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id_acesso\":123,\"situacao_do_acesso\":\"ACESSO BARRADO\",\"nome_acesso\":\"Credencial Inexistente ou Sem Creditos\",\"sobrenome_acesso\":\"\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"SSS\",\"situacao_credencial\":\"INVALIDA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-05-10T16:12:55.299208\",\"data_final_credencial\":\"2022-05-10T16:12:55.299208\",\"restam_acessos\":0,\"situacao_afastamento\":\"Sem afastamento\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 34.232,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Ultimo Acesso"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 209.05,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3000/acessos/contar4meses",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "49"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"31-+/eKsarCbJRJqQdD+xfkX7Pptrs\""
+						},
+						{
+							"name": "Date",
+							"value": "Sun, 15 May 2022 19:25:59 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 49,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"30Dias\":143,\"60Dias\":34,\"90Dias\":0,\"120Dias\":0}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 209.05,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "4 Meses dados"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 81.65,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3000/acessos/busca30DiasCriterio",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "73"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"49-7rrxFdklHFjb+05jFpXh/C1eJok\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 18 May 2022 19:55:48 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 73,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[{\"acessos_negados\":10},{\"acessos_liberado\":105},{\"acessos_barrados\":68}]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 81.65,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "30 Dias liberado, barrado, negado"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 63.315,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3000/acessos/contar30Dias",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "3"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"3-9Hrqi9y9EXmh89keav7rJZSI8tE\""
+						},
+						{
+							"name": "Date",
+							"value": "Sun, 15 May 2022 19:27:22 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 3,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "143"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 63.315,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Contar Acessos Ultimo 30 dias"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 138.572,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3000/acessos/buscacredencialDatas",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [
+						{
+							"name": "data_inicial",
+							"value": "2022-03-19 09:00:48"
+						},
+						{
+							"name": "data_final",
+							"value": "2022-04-19 21:55:39"
+						}
+					],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "14101"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"3715-Ag81djZ5LLD8kv0cGykpEOr72kg\""
+						},
+						{
+							"name": "Date",
+							"value": "Sat, 30 Apr 2022 16:02:05 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 14101,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[{\"id_acesso\":1,\"situacao_do_acesso\":\"situacao_do_acesso\",\"nome_acesso\":\"Jose Alquino\",\"sobrenome_acesso\":\"Ramos\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"123456789\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-01T21:35:15.607092\",\"data_final_credencial\":\"2024-03-19T00:00:00\",\"restam_acessos\":199,\"situacao_afastamento\":\"Viagem de Negocios\"},{\"id_acesso\":2,\"situacao_do_acesso\":\"ACESSO NEGADO por Credencial vencida ou invalida\",\"nome_acesso\":\"Jose Alquino\",\"sobrenome_acesso\":\"Ramos\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"123456789\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-01T21:37:58.859717\",\"data_final_credencial\":\"2024-03-19T00:00:00\",\"restam_acessos\":198,\"situacao_afastamento\":\"Viagem de Negocios\"},{\"id_acesso\":3,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Romero Brito\",\"sobrenome_acesso\":\"Abuquerque\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"987456321\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-01T21:42:47.1216\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"restam_acessos\":620,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":4,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Romero Brito\",\"sobrenome_acesso\":\"Abuquerque\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"987456321\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-01T21:42:54.753774\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"restam_acessos\":619,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":5,\"situacao_do_acesso\":\"ACESSO BARRADO\",\"nome_acesso\":\"Credencial Inexistente ou Sem Creditos\",\"sobrenome_acesso\":\"\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"3\",\"situacao_credencial\":\"INVALIDA\",\"direcao\":\"Saida\",\"data_acesso\":\"2022-04-01T21:43:02.859546\",\"data_final_credencial\":\"2022-04-01T21:43:02.859546\",\"restam_acessos\":0,\"situacao_afastamento\":\"Sem afastamento\"},{\"id_acesso\":6,\"situacao_do_acesso\":\"ACESSO BARRADO\",\"nome_acesso\":\"Credencial Inexistente ou Sem Creditos\",\"sobrenome_acesso\":\"\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"556545SSDF\",\"situacao_credencial\":\"INVALIDA\",\"direcao\":\"Saida\",\"data_acesso\":\"2022-04-01T21:49:18.986914\",\"data_final_credencial\":\"2022-04-01T21:49:18.986914\",\"restam_acessos\":0,\"situacao_afastamento\":\"Sem afastamento\"},{\"id_acesso\":7,\"situacao_do_acesso\":\"ACESSO NEGADO por Credencial vencida ou invalida\",\"nome_acesso\":\"Salomao\",\"sobrenome_acesso\":\"Quake\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"THBSHI995A\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-01T21:49:27.300591\",\"data_final_credencial\":\"2025-08-20T00:00:00\",\"restam_acessos\":1013,\"situacao_afastamento\":\"Inatividade por Servicos Exteriores\"},{\"id_acesso\":8,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Cleopatra\",\"sobrenome_acesso\":\"do Egito\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"15BB69DA\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-01T21:49:45.569274\",\"data_final_credencial\":\"2025-08-20T00:00:00\",\"restam_acessos\":28,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":9,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Marcin\",\"sobrenome_acesso\":\"Do Pneu\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"WIOP8BM8N\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-01T21:55:34.17551\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"restam_acessos\":500,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":10,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Marcin\",\"sobrenome_acesso\":\"Do Pneu\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"WIOP8BM8N\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-01T21:55:57.894085\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"restam_acessos\":499,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":11,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Romilda\",\"sobrenome_acesso\":\"Caxalote do Mar\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"DU50UW9FB\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-01T21:56:23.217339\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"restam_acessos\":500,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":12,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Kleuza\",\"sobrenome_acesso\":\"Cheira Angú\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"K8PWSX280\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-01T21:56:34.240814\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"restam_acessos\":500,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":13,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Kleuza\",\"sobrenome_acesso\":\"Cheira Angú\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"K8PWSX280\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-01T21:56:39.366509\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"restam_acessos\":499,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":14,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Ronaldo\",\"sobrenome_acesso\":\"Perninha de Grilo\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"EG48GUZUE\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-01T21:57:07.806458\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"restam_acessos\":6100,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":15,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Ronaldo\",\"sobrenome_acesso\":\"Perninha de Grilo\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"EG48GUZUE\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-01T21:57:13.881812\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"restam_acessos\":6099,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":18,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Marcin\",\"sobrenome_acesso\":\"Do Pneu\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"WIOP8BM8N\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-01T22:27:23.133749\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"restam_acessos\":498,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":19,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Ronaldo\",\"sobrenome_acesso\":\"Perninha de Grilo\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"EG48GUZUE\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T06:57:48.385847\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"restam_acessos\":6098,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":20,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Ronaldo\",\"sobrenome_acesso\":\"Perninha de Grilo\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"EG48GUZUE\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T08:10:39.097114\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"restam_acessos\":6097,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":21,\"situacao_do_acesso\":\"ACESSO BARRADO\",\"nome_acesso\":\"Credencial Inexistente ou Sem Creditos\",\"sobrenome_acesso\":\"\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"Salomao\",\"situacao_credencial\":\"INVALIDA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T08:20:15.142805\",\"data_final_credencial\":\"2022-04-02T08:20:15.142805\",\"restam_acessos\":0,\"situacao_afastamento\":\"Sem afastamento\"},{\"id_acesso\":22,\"situacao_do_acesso\":\"ACESSO NEGADO: Credencial vencida ou inativa no momento\",\"nome_acesso\":\"Jose Alquino\",\"sobrenome_acesso\":\"Ramos\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"123456789\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T08:20:28.583213\",\"data_final_credencial\":\"2024-03-19T00:00:00\",\"restam_acessos\":197,\"situacao_afastamento\":\"Viagem de Negocios\"},{\"id_acesso\":23,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Ronaldo\",\"sobrenome_acesso\":\"Perninha de Grilo\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"EG48GUZUE\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T08:52:43.776221\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"restam_acessos\":6096,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":24,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Ronaldo\",\"sobrenome_acesso\":\"Perninha de Grilo\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"EG48GUZUE\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T08:58:25.152268\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"restam_acessos\":6095,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":25,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Ronaldo\",\"sobrenome_acesso\":\"Perninha de Grilo\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"EG48GUZUE\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T09:18:48.915658\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"restam_acessos\":6094,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":26,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Romilda\",\"sobrenome_acesso\":\"Caxalote do Mar\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"DU50UW9FB\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T09:39:03.84715\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"restam_acessos\":499,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":27,\"situacao_do_acesso\":\"ACESSO BARRADO\",\"nome_acesso\":\"Credencial Inexistente ou Sem Creditos\",\"sobrenome_acesso\":\"\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"34563217\",\"situacao_credencial\":\"INVALIDA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T09:41:19.197544\",\"data_final_credencial\":\"2022-04-02T09:41:19.197544\",\"restam_acessos\":0,\"situacao_afastamento\":\"Sem afastamento\"},{\"id_acesso\":28,\"situacao_do_acesso\":\"ACESSO BARRADO\",\"nome_acesso\":\"Credencial Inexistente ou Sem Creditos\",\"sobrenome_acesso\":\"\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"34563217\",\"situacao_credencial\":\"INVALIDA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T09:50:29.137091\",\"data_final_credencial\":\"2022-04-02T09:50:29.137091\",\"restam_acessos\":0,\"situacao_afastamento\":\"Sem afastamento\"},{\"id_acesso\":29,\"situacao_do_acesso\":\"ACESSO BARRADO\",\"nome_acesso\":\"Credencial Inexistente ou Sem Creditos\",\"sobrenome_acesso\":\"\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"34563217\",\"situacao_credencial\":\"INVALIDA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T10:00:35.440036\",\"data_final_credencial\":\"2022-04-02T10:00:35.440036\",\"restam_acessos\":0,\"situacao_afastamento\":\"Sem afastamento\"},{\"id_acesso\":30,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Cleopatra\",\"sobrenome_acesso\":\"do Egito\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"15BB69DA\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T10:01:10.226464\",\"data_final_credencial\":\"2025-08-20T00:00:00\",\"restam_acessos\":27,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":31,\"situacao_do_acesso\":\"ACESSO NEGADO: Credencial vencida ou inativa no momento\",\"nome_acesso\":\"Gaspazinho\",\"sobrenome_acesso\":\"do Pertepan\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"55558GGS\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T10:03:22.34927\",\"data_final_credencial\":\"2021-08-20T00:00:00\",\"restam_acessos\":45453,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":32,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Josefa\",\"sobrenome_acesso\":\"Do Milagre\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"3PGN6MOW\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T10:03:46.218434\",\"data_final_credencial\":\"2025-08-20T00:00:00\",\"restam_acessos\":28,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":33,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Josefa\",\"sobrenome_acesso\":\"Do Milagre\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"3PGN6MOW\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T10:03:52.980945\",\"data_final_credencial\":\"2025-08-20T00:00:00\",\"restam_acessos\":27,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":34,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Chica\",\"sobrenome_acesso\":\"da Silca\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"BYJBGZ56\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T12:26:44.905345\",\"data_final_credencial\":\"2025-08-20T00:00:00\",\"restam_acessos\":1013,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":35,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Chica\",\"sobrenome_acesso\":\"da Silca\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"BYJBGZ56\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T14:11:44.245271\",\"data_final_credencial\":\"2025-08-20T00:00:00\",\"restam_acessos\":1012,\"situacao_afastamento\":\"Sem afastamento \"},{\"id_acesso\":36,\"situacao_do_acesso\":\"ACESSO LIBERADO\",\"nome_acesso\":\"Ronaldo\",\"sobrenome_acesso\":\"Perninha de Grilo\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"EG48GUZUE\",\"situacao_credencial\":\"ATIVA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T14:12:28.901893\",\"data_final_credencial\":\"2027-08-20T00:00:00\",\"restam_acessos\":6093,\"situacao_afastamento\":\"Sem afastamento \"}]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 138.572,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Lista Acessos por Data"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 29.982000000000003,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3000/acessos/buscacredencial/34563217",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "1291"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"50b-Z9XIfa4qrUmiM0lxUxdCR4XU1lg\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 26 Apr 2022 17:42:09 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 1291,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[{\"id_acesso\":27,\"situacao_do_acesso\":\"ACESSO BARRADO\",\"nome_acesso\":\"Credencial Inexistente ou Sem Creditos\",\"sobrenome_acesso\":\"\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"34563217\",\"situacao_credencial\":\"INVALIDA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T09:41:19.197544\",\"data_final_credencial\":\"2022-04-02T09:41:19.197544\",\"restam_acessos\":0,\"situacao_afastamento\":\"Sem afastamento\"},{\"id_acesso\":28,\"situacao_do_acesso\":\"ACESSO BARRADO\",\"nome_acesso\":\"Credencial Inexistente ou Sem Creditos\",\"sobrenome_acesso\":\"\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"34563217\",\"situacao_credencial\":\"INVALIDA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T09:50:29.137091\",\"data_final_credencial\":\"2022-04-02T09:50:29.137091\",\"restam_acessos\":0,\"situacao_afastamento\":\"Sem afastamento\"},{\"id_acesso\":29,\"situacao_do_acesso\":\"ACESSO BARRADO\",\"nome_acesso\":\"Credencial Inexistente ou Sem Creditos\",\"sobrenome_acesso\":\"\",\"tipo_documento_usuario\":\"\",\"numero_documento_usuario\":\"\",\"credencial_acesso\":\"34563217\",\"situacao_credencial\":\"INVALIDA\",\"direcao\":\"Entrada\",\"data_acesso\":\"2022-04-02T10:00:35.440036\",\"data_final_credencial\":\"2022-04-02T10:00:35.440036\",\"restam_acessos\":0,\"situacao_afastamento\":\"Sem afastamento\"}]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 29.982000000000003,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Lista Acesso pela Cred"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 56.135,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3000/auth/listar",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "1698"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"6a2-RrRU7LugSppuVflXurZ6DZm2NSk\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 10 May 2022 22:32:35 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 1698,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[{\"id_gestor\":30,\"login_gestor\":\"jamile\",\"senha_gestor\":\"$2a$10$Cjz9PDfeVbQXp2K3daa5ZekaPdbJRKQajMGFs.6v/Fg3yi0UZRQbO\",\"email_gestor\":\"jamile@email.com\"},{\"id_gestor\":31,\"login_gestor\":\"katia\",\"senha_gestor\":\"$2a$10$tjiwZObvwWIw146sjzm65eUL15M031RkCTyVMImuaJpSUgqkociIG\",\"email_gestor\":\"katia@email.com\"},{\"id_gestor\":32,\"login_gestor\":\"rita334\",\"senha_gestor\":\"$2a$10$4yHD5B5Wyqk7mv8OCosa2.N4i86vZAyNF/QGmuL8.jKYH8pPNvYKy\",\"email_gestor\":\"rita334@email.com\"},{\"id_gestor\":33,\"login_gestor\":\"administracao\",\"senha_gestor\":\"$2a$10$cfOoNxoreCnGgIWMkvcyqOV7iCVqjyaSlPl.sfa0qcKKp49dF.k02\",\"email_gestor\":\"administracao@email.com\"},{\"id_gestor\":34,\"login_gestor\":\"supervisao\",\"senha_gestor\":\"$2a$10$YbNhDWxjZ6VRuP3Lkn85qOYdYBOvvQ6jpDbHrewdL0ksubXfkSTfe\",\"email_gestor\":\"supervisao@email.com\"},{\"id_gestor\":36,\"login_gestor\":\"juliocesar\",\"senha_gestor\":\"$2a$10$ugrL3Mhjr6GBoJjZzaUXiedLDpuhcBGKLFyuLYU84PdEynv0O7.DO\",\"email_gestor\":\"juliocesar@email.com\"},{\"id_gestor\":37,\"login_gestor\":\"carlosmagno\",\"senha_gestor\":\"$2a$10$SdBXquRIQDIHDypHbYXl..FK1UQaQu11GggvfbDFf8TyPSRjbC0VG\",\"email_gestor\":\"carlosmagno@email.com\"},{\"id_gestor\":39,\"login_gestor\":\"sarnei\",\"senha_gestor\":\"$2a$10$qy9s5Gj8.Z2XoH5MhIPlge8EypE/sLAzPq53Say5LWknvOm0tsA/K\",\"email_gestor\":\"sarnei@email.com\"},{\"id_gestor\":45,\"login_gestor\":\"admin\",\"senha_gestor\":\"$2a$10$QESaFXRrmJ3hf6hsmqIT/eGrjxYqN2sSJyvyFARBwz8b0c2ZgltnC\",\"email_gestor\":\"joaoguilherme94@live.com\"},{\"id_gestor\":48,\"login_gestor\":\"s\",\"senha_gestor\":\"$2a$10$xkx5KYUic0FI/R7LDE/QGeC8.BAuRb2ALRZXqTGFG3H/ziJM6zzxm\",\"email_gestor\":\"s@live.com\"},{\"id_gestor\":49,\"login_gestor\":\"\",\"senha_gestor\":\"$2a$10$VSmMB5CJ6SP5ltJFN.dnuuaH.mg6Cr2Vv3K4Fq2bvQoIKTu.B37r.\",\"email_gestor\":\"\"}]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 56.135,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Listar Gestores"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 40.221,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3000/acessos/checkin",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"credencial\":\"joaodev\",\n\t\"direcao\":\"Saida\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 202,
+					"statusText": "Accepted",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "165"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"a5-C8Ug6xPQMdBSlw3VEdFocXLKJnE\""
+						},
+						{
+							"name": "Date",
+							"value": "Mon, 09 May 2022 22:41:09 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 165,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"acesso\":false,\"permissao\":true,\"credencial\":\"invalida\",\"msg\":\"Essa credencial esta invalida ou inexistente -_-! Por gentileza se cadastre no sistema JoaoAcesso! \"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 40.221,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Realizar Checkin para Acesso"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 41.533,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3000/auth/listar/31",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "150"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"96-yXfY+JgYupej47Ew2tu7fiRZihY\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 26 Apr 2022 17:41:44 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 150,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id_gestor\":31,\"login_gestor\":\"katia\",\"senha_gestor\":\"$2a$10$tjiwZObvwWIw146sjzm65eUL15M031RkCTyVMImuaJpSUgqkociIG\",\"email_gestor\":\"katia@email.com\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 41.533,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Lista Gestores pelo ID"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 147.024,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3000/auth/listarLogin/jamile",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "152"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"98-BOW7+uThkbX+dXujx+RneP3UK4Y\""
+						},
+						{
+							"name": "Date",
+							"value": "Sat, 30 Apr 2022 17:03:19 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 152,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id_gestor\":30,\"login_gestor\":\"jamile\",\"senha_gestor\":\"$2a$10$Cjz9PDfeVbQXp2K3daa5ZekaPdbJRKQajMGFs.6v/Fg3yi0UZRQbO\",\"email_gestor\":\"jamile@email.com\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 147.024,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Lista Gestores pelo Nome Login"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 263.43699999999995,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3000/auth/registrar",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"login\":\"s\",\n\t\"senha\":\"\",\n\t\"email\":\"s@live.com\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "58"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"3a-ZNf86dSakbH9dEmUyxQfc02xsp0\""
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 10 May 2022 22:26:58 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 58,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"situacao\":true,\"msg\":\"Gestor cadastrado com sucesso :D\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 263.43699999999995,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Registrar"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 54.440000000000005,
+				"request": {
+					"method": "DELETE",
+					"url": "http://localhost:3000/auth/deletar",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjIyLCJlbWFpbCI6ImFybGluZG9vMkBlbWFpbC5jb20iLCJpYXQiOjE2NDcyMTEyOTF9.uvoctVMOrumUYFybKiRN2Z262oK549NPGb630391tfE"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"idgestor\":40\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "68"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"44-bYRkCeuWsPgqsbYLc37KRkLPyxk\""
+						},
+						{
+							"name": "Date",
+							"value": "Sun, 27 Mar 2022 15:26:28 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 68,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"situacao\":false,\"msg\":\"Esse usuario nao existe para ser deletado\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 54.440000000000005,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Deletar Gestor"
+			},
+			{
+				"startedDateTime": "2022-05-18T20:54:05.936Z",
+				"time": 132.739,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3000/init/logar",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"login\":\"joaodev\",\n\t\"senha\":\"joaodev\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 202,
+					"statusText": "Accepted",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "authorization-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjI5LCJlbWFpbCI6ImpvYW9kZXZAZW1haWwuY29tIiwiaWF0IjoxNjUxODg1NTAxLCJleHAiOjE2NTE4ODg1MDF9.YBaFOTjm7-N9lCGbcIzVmKnlQmjxz7I6jhZs49M5VX0"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "274"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"112-cKTMaV5bEMAhIJk77g94r7J0qOE\""
+						},
+						{
+							"name": "Date",
+							"value": "Sat, 07 May 2022 01:05:01 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 274,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"usuario\":\"joaodev\",\"situacao\":true,\"msg\":\"Usuario logado com sucesso\",\"tokenlogado\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZF9nZXN0b3IiOjI5LCJlbWFpbCI6ImpvYW9kZXZAZW1haWwuY29tIiwiaWF0IjoxNjUxODg1NTAxLCJleHAiOjE2NTE4ODg1MDF9.YBaFOTjm7-N9lCGbcIzVmKnlQmjxz7I6jhZs49M5VX0\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 132.739,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Logar"
+			}
+		]
+	}
+}

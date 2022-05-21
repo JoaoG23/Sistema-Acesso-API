@@ -28,7 +28,7 @@
 Alterações   | Data
 :---------: | :------:
 Emissão Inicial | 26/03/2022
-Finalizando Pacialmente | 21/05/2022
+Finalizado Parcialmente | 21/05/2022
 
 ### 👥 Principais Tecnologia usadas até o momento
 #### 🧑‍💻 No front-end

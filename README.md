@@ -176,7 +176,7 @@ e controlar o fluxo de pessoas em um estabelecimento. O seu funcionamento
 consiste em cadastrar uma pessoa no sistema. Em seguida ir na tela de monitoramento e realizar o Check-in de acesso.
 
 
-### 3 - Fundamento gerais da aplicação
+### 3 - Fundamentos gerais da aplicação
 
 Na tela haverá um barra lateral onde estarão todos os menus.
 

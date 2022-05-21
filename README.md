@@ -190,7 +190,7 @@ a pagina anterior.
 No meio os cartões, e cada cartão haverá um pequeno <font color=#7334fc><b> Botão de x</b></font>,
 servidor para exclusão de cartão e dos dados. Veja o GIF abaixo e entenderá:
 
-<img  align=center src="./Documents/Assets/estruturaGeral.GIF">
+<img  align=center src="./Documents/Assets/EstruturaGeral.GIF">
 
 Há algumas variações pequenas de layout em outras abas, porém nada fora do comum.
 

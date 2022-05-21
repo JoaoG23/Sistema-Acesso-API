@@ -61,7 +61,9 @@ Emissão Inicial | 26/03/2022
 
 <h2 id='introdução'><b>1-introdução</b></h2>
 
-![introducao](./Documents/Assets/Apresentacao.GIF)
+
+<img  align=center src="./Documents/Assets/Apresentacao.gif">
+
 
 Acumulando o mínimo de conhecimento de sistema de controle de acesso. Estou desenvolvendo meu proprio sistema de contole de acesso. Para testar minha capacidade de desenvolvimento com NodeJS. 
 Então, depois de compartilhar um pouco, por qual sentido desta criacão, vou apresenta o que temos até agora.
@@ -142,8 +144,10 @@ Teste, ***Insomnia ou postman*** de sua preferencia. Ou então aguarde a documen
 
 <h2 id='usar'><b>4- Como usar</b></h2>
 
+Clique logo abaixo para ver o tutorial sobre o sistema.
+
 <details>
-  <summary><b>Veja Mais</b></summary>
+  <summary><b>Veja mais sobre ...</b></summary>
 
 
 ### 1-Iniciando o servidor

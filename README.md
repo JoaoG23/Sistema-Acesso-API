@@ -147,8 +147,8 @@ Teste, ***Insomnia ou postman*** de sua preferencia.
 
 Clique logo abaixo para ver o tutorial sobre o sistema.
 
-<!-- <details>
-  <summary><b>Veja mais sobre ...</b></summary> -->
+<details>
+  <summary><b>Veja mais sobre ...</b></summary>
 
 
 ### 1-Iniciando o servidor
@@ -283,7 +283,7 @@ Ele serve para limitar o acesso do usuário conforme ele for na área check-in d
 Trazendo para o mundo real. Como se fosse o crédito de celular 🤑📱 .
 
 
-<!-- </details> -->
+</details>
 
 
 <h2 id='consideraçoesfinais'><b>5 -🥺😭 Considerações finais</b></h2>

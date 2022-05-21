@@ -1,6 +1,7 @@
 
 <div  align=center >
-<font color=#086c53 size=35><b>Sistema João Acesso</b></font>
+
+        <h1>Sistema João Acesso<h1>
 
    <img width="400px" src="./Documents/Assets/logo.png">
 

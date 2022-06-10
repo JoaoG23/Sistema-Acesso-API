@@ -327,7 +327,7 @@ Feito com 🤭 por Joao Guilherme 👋🏽 Entre em contato!
 [![Badge](https://img.shields.io/badge/-joaoguilherme94@live.com-c80?style=flat-square&logo=Microsoft&logoColor=white&link=mailto:joaoguilherme94@live.com)](mailto:joaoguilherme94@live.com)
 
 
-<h2 id='licensa'><b>8 - Licença</b></h2>
+<h2 id='licenca'><b>8 - Licença</b></h2>
 
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 

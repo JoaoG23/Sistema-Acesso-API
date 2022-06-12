@@ -59,9 +59,13 @@ const ultimoAcesso = async ( desmonstrador ) => {
 
 }
 
+const finalizarSessao = () => {
+    return MainServices.logoOut();
+}
 
 
 export {
+    finalizarSessao,
     limpaTela,
     insererModaisTela,
     fecharModais, 

@@ -6,7 +6,8 @@ import { mostrarUsuarioLogado, insererModaisTela, fecharModais, adicionar,gerarA
  window.addEventListener( 'DOMContentLoaded', () => { adicionarUsuarioController() });
   function adicionarUsuarioController(){
 
-        
+      const btnLogOut = document.querySelector('[logout]');
+      btnLogOut.addEventListener('click' , () => {finalizarSessao()});
 
         const modaisDemostrador = document.querySelector('[root-modal]');
         insererModaisTela( modaisDemostrador );

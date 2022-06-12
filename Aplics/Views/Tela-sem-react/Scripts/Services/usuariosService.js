@@ -100,7 +100,12 @@ const mostrarUsuarioLogado = ( nomeDoUsuario ) => {
     MainServices.exibeDado('#nomeDoUsuario', nomeDoUsuario);
 }
 
+const finalizarSessao = () => {
+    return MainServices.logoOut();
+}
+
 export {
+    finalizarSessao,
     buscaDadosUsuario,
     buscaPeloNome,
     mostrarUsuarioLogado,

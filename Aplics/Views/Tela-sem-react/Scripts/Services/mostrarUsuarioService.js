@@ -24,5 +24,8 @@ const mostrarUsuarioLogado = ( nomeDoUsuario ) => {
     MainServices.exibeDado('#nomeDoUsuario', nomeDoUsuario );
 }
 
+const finalizarSessao = () => {
+    return MainServices.logoOut();
+}
 
-export { mostrarTodosDados, mostrarUsuarioLogado }
+export { finalizarSessao, mostrarTodosDados, mostrarUsuarioLogado }

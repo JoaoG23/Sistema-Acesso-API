@@ -11,6 +11,9 @@ import {
   function gestorController(){
      
 
+        const btnLogOut = document.querySelector('[logout]');
+        btnLogOut.addEventListener('click' , () => {finalizarSessao()});
+
         const demonstrador = document.querySelector('[root]');
         const modaisDemostrador = document.querySelector('[root-modal]');
         insererModaisTela( modaisDemostrador );

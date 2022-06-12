@@ -18,6 +18,9 @@ window.addEventListener('DOMContentLoaded', () => { HomeController() });
 function HomeController() {
 
 
+       const btnLogOut = document.querySelector('[logout]');
+       btnLogOut.addEventListener('click' , () => {finalizarSessao()});
+
        const area4Meses = document.querySelector('#area4Meses');
        const pizzaDeSituacoesAcesso = document.querySelector('#partilhaPorSitucaoAcesso');
 

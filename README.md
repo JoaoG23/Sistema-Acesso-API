@@ -25,10 +25,11 @@
 ## Edições ✏️📑
 
 
-Alterações   | Data
-:---------: | :------:
-Emissão Inicial | 26/03/2022
-Finalizado Parcialmente | 21/05/2022
+Alterações   | Data | Versão
+:---------: | :------: | :------:
+Emissão Inicial | 26/03/2022 | 1.0.0
+Finalizado Parcialmente | 21/05/2022 | 1.0.0 
+Adicionado feature disparo de emails | 12/06/2022 | 1.0.1
 
 ### 👥 Principais Tecnologia usadas até o momento
 #### 🧑‍💻 No front-end
@@ -249,6 +250,10 @@ Segundo : Quantidade de acesso dos últimos 4 Meses.
  2. Gestores de sistema 👩‍💼: Lista de usuários para acessar o sistema com login e senha.
  
  Observação : Eu tive que mudar o nome para gestores de sistema envés de usuários, pois os usuário aqui, são as pessoas serão que usaram o sistema de controle de acesso para fazer Check-in.
+
+ Obs: Nova atualização 
+ Nova Feature versão 1.0.1 
+ Quando o gestor é cadastrado será enviado um email para ele informando suas informações do cadastro. 
  
 
  3. Usuários 🙋‍♂️ : 

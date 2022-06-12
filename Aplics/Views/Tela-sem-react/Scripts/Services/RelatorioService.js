@@ -167,7 +167,12 @@ const gerarPDF = ( arrayDados, container ) => {
 }
 
 
+const finalizarSessao = () => {
+    return MainServices.logoOut();
+}
+
 export {
+    finalizarSessao,
     limpaTela,
     insererModaisTela,
     fecharModais,

@@ -11,6 +11,9 @@ window.addEventListener( 'DOMContentLoaded', () => { configController() });
  function configController(){
 
          
+      const btnLogOut = document.querySelector('[logout]');
+      btnLogOut.addEventListener('click' , () => {finalizarSessao()});
+      
        const modaisDemostrador = document.querySelector('[root-modal]');
        insererModaisTela( modaisDemostrador );
        

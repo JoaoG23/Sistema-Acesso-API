@@ -117,9 +117,13 @@ const fecharModais = (seletorDeModais) => {
 }
 
 
+const finalizarSessao = () => {
+    return MainServices.logoOut();
+}
 
 
 export {
+    finalizarSessao,
     adicionar,
     mostrarUsuarioLogado,
     insererModaisTela,

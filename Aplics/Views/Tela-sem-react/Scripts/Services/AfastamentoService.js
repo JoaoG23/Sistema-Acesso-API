@@ -50,10 +50,14 @@ const listaAfastamentos = async (  desmonstrador ) => {
 
 }
 
+const finalizarSessao = () => {
+    return MainServices.logoOut();
+}
 
 
 
 export {
+    finalizarSessao,
     insererModaisTela,
     fecharModais, 
     mostrarUsuarioLogado,

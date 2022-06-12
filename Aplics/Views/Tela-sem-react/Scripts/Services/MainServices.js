@@ -1,19 +1,16 @@
 
 
-
-
-// let cabecalho = new Headers();
-// cabecalho.append("Content-Type", "application/json");
-// cabecalho.append('authorization-token','eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9)
-
-
-
 // ********* Requests *************
 
 const MainServices = {
     buscaToken : () => {
         const token = localStorage.getItem('token');
         return token;
+    },
+
+    logoOut : () => {
+        // MainServices.redirecionarBloquear('./index.html',1000);
+         window.localStorage.clear();
     },
 
     buscaID : ( simboloSeletor ) => {
@@ -101,7 +98,7 @@ const MainServices = {
             if( response.status === 401 ){
                 MainServices.exibirInformacaoEmElementoTags( '#erroDadosServidor' ,'Sua sessão expirou, vá se logar de novo!' );
                 MainServices.mudarEstado('esconder-modal' ,'mostrar-modal', '#modalErro');
-                MainServices.redirecionarBloquear('./index.html',1000);
+                MainServices.redirecionarBloquear('./index.html',2000);
                 return;
             }
 

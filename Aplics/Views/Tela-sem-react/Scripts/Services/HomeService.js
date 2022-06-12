@@ -143,10 +143,13 @@ const graficoRodaMes = async (demostradorGrafico) => {
 }
 
 
-
+const finalizarSessao = () => {
+    return MainServices.logoOut();
+}
 
 
 export {
+    finalizarSessao,
     limpaTela,
     insererModaisTela,
     fecharModais,

@@ -10,7 +10,7 @@ import {
 window.addEventListener( 'DOMContentLoaded', () => { monitorController() });
  function monitorController(){
 
-    
+      
 
        const modaisDemostrador = document.querySelector('[root-modal]');
        insererModaisTela( modaisDemostrador );

@@ -8,6 +8,7 @@ import {
        acessosTodos,
         limpaTela,
          ultimoAcesso,
+         finalizarSessao
        } from '../Services/AcessosServices.js';
 
 
@@ -15,7 +16,10 @@ window.addEventListener( 'DOMContentLoaded', () => { acessosController() });
  function acessosController(){
 
     
+      const btnLogOut = document.querySelector('[logout]');
 
+      btnLogOut.addEventListener('click' , () => {finalizarSessao()});
+      
        const demonstrador = document.querySelector('[root]');
        
        acessosTodos( demonstrador );

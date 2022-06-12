@@ -125,8 +125,6 @@ const buscaDados30DiasPorCriterio = async ( request, response ) => {
 const busca4meses = async ( request, response ) => {
     try {
         await pool.connect();
-
-
         const dados4meses = "SELECT procedure_busca_ultimo_4meses()";
         const resultado = await pool.query( dados4meses );
         

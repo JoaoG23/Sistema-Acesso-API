@@ -5,6 +5,7 @@ import {
      mostrarUsuarioLogado,
      insererModaisTela,
     fecharModais,
+    finalizarSessao
      
  } from '../Services/usuariosService.js';
 
@@ -12,6 +13,8 @@ import {
  const token = localStorage.getItem('token');
   function usuarioController(){
      
+         const btnLogOut = document.querySelector('[logout]');
+        btnLogOut.addEventListener('click' , () => {finalizarSessao()});
 
         const demonstrador = document.querySelector('[root]');
         const modaisDemostrador = document.querySelector('[root-modal]');

@@ -12,6 +12,9 @@ import {
 window.addEventListener('DOMContentLoaded', () => { acessosController() });
 function acessosController() {
 
+   const btnLogOut = document.querySelector('[logout]');
+   btnLogOut.addEventListener('click' , () => {finalizarSessao()});
+
    const dataInicial = document.querySelector('#data_inicio');
    const dataFinal = document.querySelector('#data_fim');
    const codigoCredencial = document.querySelector('#codigo_credencial');

@@ -6,7 +6,9 @@ import { mostrarUsuarioLogado, insererModaisTela, fecharModais, adicionar, liber
  window.addEventListener( 'DOMContentLoaded', () => { adicionarGestorController() });
   function adicionarGestorController(){
 
-    
+       const btnLogOut = document.querySelector('[logout]');
+       btnLogOut.addEventListener('click' , () => {finalizarSessao()});
+
         const campos = document.querySelectorAll('.input-style');
         const botaSalvarDados = document.querySelector('.SalvarDados');
         

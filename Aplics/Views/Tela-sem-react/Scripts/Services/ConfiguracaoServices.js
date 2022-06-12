@@ -25,9 +25,13 @@ const sairPagina = () => {
    MainServices.voltarPagina( 1000 );
 }
 
+const finalizarSessao = () => {
+    return MainServices.logoOut();
+}
 
 
 export {
+    finalizarSessao,
     insererModaisTela,
     fecharModais, 
     mostrarUsuarioLogado,

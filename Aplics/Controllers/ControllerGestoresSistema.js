@@ -113,7 +113,7 @@ const gestoresController = {
             transporter.sendMail({
                 from:user,
                 to:email,
-                subject:`Boas Vinda ${login} ao Sistema João Acesso`,
+                subject:`Boas Vinda! ${login} ao Sistema João Acesso`,
                 html:`
                 <!DOCTYPE html>
 <html lang="en">

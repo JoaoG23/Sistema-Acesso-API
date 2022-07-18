@@ -3,7 +3,7 @@ const configEmails = {
 
     buscarConfigsTestAPI: async function ( request, response ) { 
         try {
-            await pool.connect();
+            // await pool.connect();
             const procedure = 'SELECT PROCEDURE_EMAIL_BUSCA()';
             
             const resultado = await pool.query( procedure );
@@ -18,7 +18,7 @@ const configEmails = {
 
     atualizarEmail: async function ( request, response ) { 
         try {
-            await pool.connect();
+            // await pool.connect();
             const procedure = 'SELECT procedure_email_atualizar_dados($1,$2,$3,$4,$5)';
             const host = request.body.host_email;
             const port = request.body.port_email;

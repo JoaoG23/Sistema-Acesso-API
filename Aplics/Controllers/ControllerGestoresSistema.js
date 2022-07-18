@@ -8,7 +8,7 @@ const gestoresController = {
     buscaRegistrados: async function ( request, response ) { // Lembre se do Async!
         
         try {
-            await pool.connect();
+            // await pool.connect();
             const ProcedureBuscar = 'SELECT procedure_busca_gestor()';
             const resultado = await pool.query( ProcedureBuscar );
             const resultBusca = resultado.rows[0].procedure_busca_gestor;
@@ -26,7 +26,7 @@ const gestoresController = {
         try {
 
             const id = request.params.idgestor;
-            await pool.connect();
+            // await pool.connect();
             const ProcedureBuscar = 'SELECT procedure_busca_gestor_pelo_id($1)';
             const values = [id];
             const resultado = await pool.query( ProcedureBuscar , values );
@@ -45,7 +45,7 @@ const gestoresController = {
         try {
 
             const nomeLogin = request.params.login_nome;
-            await pool.connect();
+            // await pool.connect();
             const ProcedureBuscar = 'SELECT procedure_busca_gestor_login($1)';
             const values = [nomeLogin];
             const resultado = await pool.query( ProcedureBuscar , values );
@@ -64,7 +64,7 @@ const gestoresController = {
 
         const id = request.body.idgestor;
         try {
-            await pool.connect();
+            // await pool.connect();
             const ProcedureDeletar = 'SELECT procedure_deletar_gestor($1)';
             const values = [id];
             
@@ -86,7 +86,7 @@ const gestoresController = {
         const email = request.body.email;
         
         try {
-            await pool.connect();
+            // await pool.connect();
             const ProcedureRegistrar = 'SELECT procedure_registrar_gestor($1,$2,$3)';
             const criptoSenha = bcrypt.hashSync(senha); // Encriptar senha antes de chegar ao banco
             const values = [login, criptoSenha , email];
@@ -164,7 +164,7 @@ const gestoresController = {
         const loginName = request.body.login;
         const senha = request.body.senha;
         try {
-            await pool.connect();
+            // await pool.connect();
             const ProcedureLogin = 'SELECT procedure_valida_login($1)';
             const values  =  [ loginName ];
             

@@ -5,10 +5,13 @@ const { Pool } = require('pg');
     database:process.env.DATABASE,
     password:process.env.PASSWORD,
     port:process.env.PORTDB,
-    idleTimeoutMillis: 30000,
-    connectionTimeoutMillis: 4000,
-    max: 100000000000,
-    max_connections:30000
+    idleTimeoutMillis: 0,
+    connectionTimeoutMillis: 0,
+    max: 10,
+    // max_connections:30000,
+    ssl: {
+        rejectUnauthorized: false,
+    }
 });
 
 module.exports =  poolConexao ;

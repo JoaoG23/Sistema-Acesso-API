@@ -3,7 +3,7 @@ const pool = require('../Model/ConnectioDB');
 
 const listaTodosAcessos = async ( request, response ) => {
     try {
-        await pool.connect();
+        // await pool.connect();
         const resultado = await pool.query('SELECT * FROM procedure_todos_acessos()');
         
         const listaTodosAcessosRespostaFinal = resultado.rows;
@@ -20,7 +20,7 @@ const listaTodosAcessos = async ( request, response ) => {
 
 const listaAcessoPelaCredencial = async ( request, response ) => {
     try {
-        await pool.connect();
+        // await pool.connect();
         const credencialProcurada = request.params.credencial;
         const procedureBuscaAcessoCredencial = 'SELECT procedure_busca_acesso_pela_credencial($1)';
 
@@ -38,7 +38,7 @@ const listaAcessoPelaCredencial = async ( request, response ) => {
 
 const ultimoAcesso = async ( request, response ) => {
     try {
-        await pool.connect();
+        // await pool.connect();
         const procedureBuscaAcessoCredencial = 'SELECT procedure_busca_ultimo_acesso()';
 
         const resultado = await pool.query( procedureBuscaAcessoCredencial );
@@ -55,7 +55,7 @@ const ultimoAcesso = async ( request, response ) => {
 
 const listaAcessoPelaData = async ( request, response ) => {
     try {
-        await pool.connect();
+        // await pool.connect();
         const dataDeInicio = request.query.data_inicial;
         const dataDeFinal = request.query.data_final;
 
@@ -75,7 +75,7 @@ const listaAcessoPelaData = async ( request, response ) => {
 
 const checkinDeControleAcesso = async ( request, response ) => {
     try {
-        await pool.connect();
+        // await pool.connect();
         const credencialAserValidada = request.body.credencial;
         const direcaoAcesso = request.body.direcao;
 
@@ -95,7 +95,7 @@ const checkinDeControleAcesso = async ( request, response ) => {
 
 const buscaDados30DiasPorCriterio = async ( request, response ) => {
     try {
-        await pool.connect();
+        // await pool.connect();
 
 
         const procedureNegados = "SELECT procedure_busca_ultimo_periodo('30 Days', '%ACESSO NEGADO%')";
@@ -124,7 +124,7 @@ const buscaDados30DiasPorCriterio = async ( request, response ) => {
 
 const busca4meses = async ( request, response ) => {
     try {
-        await pool.connect();
+        // await pool.connect();
         const dados4meses = "SELECT procedure_busca_ultimo_4meses()";
         const resultado = await pool.query( dados4meses );
         
@@ -141,7 +141,7 @@ const busca4meses = async ( request, response ) => {
 
 const contarTodos30Dias = async ( request, response ) => {
     try {
-        await pool.connect();
+        // await pool.connect();
 
 
         const procedure = "SELECT procedure_busca_ultimo_periodo('30 Days', '%ACESSO LIBERADO%')";
@@ -160,7 +160,7 @@ const contarTodos30Dias = async ( request, response ) => {
 
 const contaTodosAcessoHoje = async ( request, response ) => {
     try {
-        await pool.connect();
+        // await pool.connect();
 
 
         const procedure = "SELECT procedure_busca_ultimo_periodo('1 Days', '%ACESSO LIBERADO%')";

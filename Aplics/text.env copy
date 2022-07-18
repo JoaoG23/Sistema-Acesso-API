@@ -1,0 +1,11 @@
+
+PORT_SERVIDOR=3000
+
+USERDB="postgres"
+PORTDB=5432
+HOSTDB="127.0.0.1"
+DATABASE="dbsistema_acesso"
+PASSWORD="admin"
+
+TOKEN_SECRET="joao"
+

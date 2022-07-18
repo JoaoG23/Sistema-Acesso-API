@@ -84,7 +84,7 @@ const MainServices = {
     },
 
     rotaPrincipalAPI: () => {
-        return 'http://192.168.0.109:3000' || 'http://localhost:3000';
+        return 'http://192.168.100.7:3000' || 'http://localhost:3000';
     },
 
     simplesRequisicao: async ( hostname, finalCaminhoAPI, configuracaoRequest ) => {

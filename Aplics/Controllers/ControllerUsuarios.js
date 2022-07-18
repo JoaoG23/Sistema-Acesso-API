@@ -4,7 +4,7 @@ const pool = require('../Model/ConnectioDB');
 
 const listaTodosUsuarios = async (request, response) => {
     try {
-        await pool.connect();
+        // await pool.connect();
         const resultado = await pool.query('SELECT procedure_busca_usuario()');
 
         const ListaTodosRespostaFinal = resultado.rows[0].procedure_busca_usuario;
@@ -22,7 +22,7 @@ const listaTodosUsuarios = async (request, response) => {
 const listaUsuarioPeloID = async (request, response) => {
     try {
 
-        await pool.connect();
+        // await pool.connect();
         const idBuscadoUser = request.params.id_usuario;
 
         const procedureListaID = 'SELECT procedure_busca_usuario_pelo_id($1)';
@@ -43,7 +43,7 @@ const listaUsuarioPeloID = async (request, response) => {
 const listaUsuarioNome = async (request, response) => {
     try {
 
-        await pool.connect();
+        // await pool.connect();
         const nomeDoUsuario = request.params.nome_usuario;
 
         const buscaNome = 'SELECT * FROM procedure_busca_usuario_pelo_nome($1)';
@@ -64,7 +64,7 @@ const listaUsuarioNome = async (request, response) => {
 
 const listarUsuariosPaginar = async (request, response) => {
     try {
-        await pool.connect();
+        // await pool.connect();
         const valorPagina = request.params.numero_pagina;
 
         const listaDados = 'SELECT * FROM procedure_busca_usuario_paginacao($1 , 9)';
@@ -152,7 +152,7 @@ const adicionarUsuarioECrendencial = async (request, response) => {
 
 
     try {
-        await pool.connect();
+        // await pool.connect();
         const ProcedureAddUser = 'SELECT procedure_adicionar_usuario_credencial($1,$2)';
         const values = [infoCrendencial, infoUsuario];
 
@@ -176,7 +176,7 @@ const adicionarUsuarioECrendencial = async (request, response) => {
 const deletarUsuarioECrendecial = async (request, response) => {
     try {
 
-        await pool.connect();
+        // await pool.connect();
         const { id_usuario } = request.body;
         let valorId = { id_usuario };
 
@@ -198,7 +198,7 @@ const deletarUsuarioECrendecial = async (request, response) => {
 
 const rotaTestePosts = async (request, response) => {
     try {
-        await pool.connect();
+        // await pool.connect();
         let randonId = Math.floor(Date.now() * Math.random()).toString(36);
         const cab = JSON.stringify( request.headers['user-agent'] );
         const { id_usuario, credencial } = request.body;
@@ -287,7 +287,7 @@ const atualizarUsuario = async (request, response) => {
 
 
     try {
-        await pool.connect();
+        // await pool.connect();
         const ProcedureAtualizarUser = 'SELECT procedure_atualizar_usuario($1,$2,$3)';
         const values = [infoUsuario.id_usuario, infoCrendencial, infoUsuario];
 
@@ -319,7 +319,7 @@ const addAfastamento = async (request, response) => {
     }
 
     try {
-        await pool.connect();
+        // await pool.connect();
         const ProcedureTipoAfasta = 'SELECT procedure_adicionar_tipo_afastamento($1)';
         const values = [ infoAfastamento ];
 
@@ -342,7 +342,7 @@ const addAfastamento = async (request, response) => {
 const DeletarAfastamento = async (request, response) => {
         const idAfast = request.body.id_afastamento;
     try {
-        await pool.connect();
+        // await pool.connect();
         const ProcedureDelAfasta = 'SELECT procedure_deletar_afastamento($1)';
         const values = [ idAfast ];
 
@@ -364,7 +364,7 @@ const DeletarAfastamento = async (request, response) => {
 
 const listaTiposAfastamentos = async (request, response) => {
     try {
-        await pool.connect();
+        // await pool.connect();
         const resultado = await pool.query('SELECT procedure_busca_tipos_afastamentos()');
 
         const respostaListagem = resultado.rows[0].procedure_busca_tipos_afastamentos;
@@ -381,7 +381,7 @@ const listaTiposAfastamentos = async (request, response) => {
 const listaAfastamentosID = async (request, response) => {
     const id = request.params.id_afastamento;
     try {
-        await pool.connect();
+        // await pool.connect();
 
         const Procedure = 'SELECT procedure_busca_afastamento_pelo_id($1)';
         const values = [ id ];
@@ -404,7 +404,7 @@ const atualizarAfastamento = async (request, response) => {
     const tempoNovo = request.body.tempo_afastamento;
 
     try {
-        await pool.connect();
+        // await pool.connect();
 
          const ProcedureAtualizar = 'SELECT procedure_atualizar_afastamento($1,$2,$3)';
          const valuesUpdate = [ id , nomeNovo, tempoNovo ];

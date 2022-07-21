@@ -1,4 +1,5 @@
 
+import data from '../Data/Environment/index.json' assert { type: "json" };
 
 // ********* Requests *************
 
@@ -84,7 +85,8 @@ const MainServices = {
     },
 
     rotaPrincipalAPI: () => {
-        return 'http://192.168.100.7:3000' || 'http://localhost:3000';
+        console.info(data.rotafront + data.port);
+         return data.rotafront + data.port || 'http://localhost:3000';
     },
 
     simplesRequisicao: async ( hostname, finalCaminhoAPI, configuracaoRequest ) => {

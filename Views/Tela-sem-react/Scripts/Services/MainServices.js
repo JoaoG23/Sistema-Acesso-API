@@ -93,7 +93,8 @@ const MainServices = {
         try {
 
             const endpoint = hostname + finalCaminhoAPI;
-            console.info('O seu endpoint é : ', endpoint);
+
+            // MainServices.exibirInformacaoEmElementoTags( '#erroDadosServidor' ,'Loaddinnng .....' );
 
             const response = await fetch(endpoint, configuracaoRequest);
 

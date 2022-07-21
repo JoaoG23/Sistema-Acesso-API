@@ -53,7 +53,8 @@ const fechaOsModais = (seletorDeModais) => {
 
 const logarUsuario = async (login, senha) => {
 
-
+    // MainServices.exibirInformacaoEmElementoTags( '#erroDadosServidor' ,'Loaddinnng .....' );
+    // MainServices.mudarEstado('esconder-modal', 'mostrar-modal', '#modalErro')
     let dadosValidacao = JSON.stringify({
         login: login.value,
         senha: senha.value

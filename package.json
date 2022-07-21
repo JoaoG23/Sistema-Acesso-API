@@ -1,20 +1,23 @@
 {
-  "name": "sistema-joao-acesso",
+  "name": "joao-acesso",
   "version": "1.0.0",
-  "description": "Como tenho trabalhado um pouco no ramo de Sistemas de controle de acesso, resolvi criar o meu próprio Sistema de controle, bem basicão mesmo.",
-  "main": "index.js",
+  "description": "Um pequeno sistema criado para controle de acesso de pessoas.",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node init.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JoaoG23/Sistema-joao-acesso.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JoaoG23/Sistema-joao-acesso/issues"
-  },
-  "homepage": "https://github.com/JoaoG23/Sistema-joao-acesso#readme"
+  "author": "Joao Guilherme",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.7.5",
+    "pg": "^8.7.3",
+    "socket.io": "^4.4.1",
+    "swagger-autogen": "^2.20.8",
+    "swagger-ui-express": "^4.3.0"
+  }
 }

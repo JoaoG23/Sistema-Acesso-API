@@ -87,7 +87,7 @@ const MainServices = {
     rotaPrincipalAPI: () => {
         // console.info(data.rotafront + data.port);
         //  return data.rotafront + data.port || 'http://localhost:3000';
-         return 'https://localhost:3000';
+         return window.location.origin || 'https://localhost:3000';
     },
 
     simplesRequisicao: async ( hostname, finalCaminhoAPI, configuracaoRequest ) => {

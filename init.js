@@ -27,6 +27,6 @@ app.use("/init", routerLogin);
 
 let porta = process.env.PORT_SERVIDOR;
 
-app.listen( porta || 5000, () =>{
+app.listen( porta || 3000, () =>{
     console.log("API Sistema Joao Acesso Rodando na porta: ", porta );
 });

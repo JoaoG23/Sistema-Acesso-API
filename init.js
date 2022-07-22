@@ -26,6 +26,6 @@ app.use('/', express.static(path.join(__dirname, "Views/Tela-sem-react")));
 
 let porta = process.env.PORT_SERVIDOR;
 
-app.listen( porta || 3000, () =>{
+app.listen( porta || 5000, () =>{
     console.log("API Sistema Joao Acesso Rodando na porta: ", porta );
 });

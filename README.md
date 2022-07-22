@@ -30,6 +30,7 @@ Alterações   | Data | Versão
 Emissão Inicial | 26/03/2022 | 1.0.0
 Finalizado Parcialmente | 21/05/2022 | 1.0.0 
 Adicionado feature disparo de emails | 12/06/2022 | 1.0.1
+Fazendo o Deploy na Nuvem | 22/07/22 | 1.0.1
 
 ### 👥 Principais Tecnologia usadas até o momento
 #### 🧑‍💻 No front-end
@@ -146,8 +147,8 @@ Teste, ***Insomnia ou postman*** de sua preferencia.
 
 
 <h2 id='usar'><b>4- Como usar 👩‍💻</b></h2>
-
 Clique logo abaixo para ver o tutorial sobre o sistema.
+<h3><a href="https://pr-joao-acesso.herokuapp.com">Clique aqui para Teste Tempo Real 🥳👈</a><h4>
 
 <details>
   <summary><b>Veja mais sobre ...</b></summary>
@@ -168,7 +169,7 @@ em seguida digite na URL : http://localhost:3000/index.html.
 Na primeira tela e a de login. 
 
 Digite **admin** senha e login, para o primeiro acesso.
-
+<h3><a href="https://pr-joao-acesso.herokuapp.com">Clique aqui para Teste Tempo Real 🥳👈</a><h4>
 
 ### Conceito inicial 💡
 

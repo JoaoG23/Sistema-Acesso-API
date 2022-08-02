@@ -50,6 +50,8 @@ const verificaSenhasIguais =  ( senha, confimacaoSenha, elementoModificado ) => 
 const adicionar = ( login, senha, email,  botaoSalvar ) => {
 
     botaoSalvar.addEventListener('click', async (evento) => {
+            // Iniciar carregamento ate que a promise seja resolvida
+        MainServices.mudarEstado('esconder-modal', 'mostrar-modal', '#modalLoading');
         evento.preventDefault();
         
         try {
@@ -72,20 +74,23 @@ const adicionar = ( login, senha, email,  botaoSalvar ) => {
             }
         };
 
-        // MainServices.mudarEstado('esconder-modal', 'mostrar-modal', '#modalLoading');
         
         
             const respostaUsuario = await MainServices.simplesRequisicao( MainServices.rotaPrincipalAPI() + '/init/registrar', '', POST );
 
-
+            MainServices.mudarEstado('mostrar-modal', 'esconder-modal', '#modalLoading');
+            
             const validaEdicao = ( dadosValidacao ) => {
-
+                
                 if (dadosValidacao === true) {
                     // Mostra modal Bom
+                    // Termina carregamento ate que da promise
+                    // Termina Mostrar os modais sucesso 
                     MainServices.mudarEstado('esconder-modal', 'mostrar-modal', '#modalSuccess');
                     MainServices.redirecionarLocal('./index.html', 1000);
                 } else {
                     // Mostra modal Ruin
+                    MainServices.mudarEstado('esconder-modal', 'mostrar-modal', '#modalSuccess');
                     MainServices.mudarEstado('esconder-modal', 'mostrar-modal', '#modalErro');
                 }
             }

@@ -79,6 +79,11 @@
         background-color: var(--cor-roxo-comum);
     }
     
+    .imgRegister{
+        width: 27em;
+        opacity: 0.7;
+        
+    }
 
     @keyframes rodandoSpinnerLoading {
         0%{ transform: rotate(0deg); }
@@ -585,6 +590,11 @@ th{
 .roxo{
 
     background-image: var(--cor-roxo);
+    color:var(--cor-branco);
+}
+.roxo-sem-degrede{
+
+    background-color: var(--cor-roxo-comum);
     color:var(--cor-branco);
 }
 .amarelo{

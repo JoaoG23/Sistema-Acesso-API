@@ -53,7 +53,9 @@ const fechaOsModais = (seletorDeModais) => {
 
 const logarUsuario = async (login, senha) => {
 
+    // Iniciar carregamento ate que a promise seja resolvida
      MainServices.mudarEstado('esconder-modal', 'mostrar-modal', '#modalLoading');
+
      let dadosValidacao = JSON.stringify({
          login: login.value,
          senha: senha.value

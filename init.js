@@ -23,7 +23,6 @@ app.use("/auth",auth, routerGestores);
 app.use("/init", routerLogin);
 // 
 app.use('/', express.static(path.join(__dirname, "Views/Tela-sem-react")));
-// app.get('/');
 
 let porta = process.env.PORT || 3000;
 

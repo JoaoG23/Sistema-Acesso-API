@@ -3,6 +3,24 @@ const MainTemplates = {
     criarModaisTodos: ( ondeSeraExibido ) => {
 
         const modais = `
+        <section id="modalLoading" class="fundo esconder-modal ">
+        <div class="modal">
+            <h2>Carregando.. </h2>
+            <div class="containerSpinner">
+         
+                <div class="fundoCirculoSpinner">
+                    <div class="cursorSpinner"></div>
+                    <div class="meioSpinner">
+        
+                    </div>
+                </div>
+            <div id="sucessoDadosServidor">
+       
+            </div>
+        </div>
+       </section>
+
+
  <section id="modalSuccess" class="fundo esconder-modal ">
      <div class="modal">
           <img src="./Assets/icons/concluido.svg">
@@ -48,6 +66,7 @@ const MainTemplates = {
          </footer>
      </div>
  </section>
+
  `;
 
         exiberNaTela(modais, ondeSeraExibido);

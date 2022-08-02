@@ -25,6 +25,66 @@
     --tamanho-300:300px;
 }
 
+
+    .containerSpinner {
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       width: 7em;
+       height: 7em;
+    }
+
+    .fundoCirculoSpinner{
+
+        display: inline-block;
+
+        box-shadow: 10px 10px  100px rgba(188, 31, 212, 0.279);
+        height:7em;
+        width: 7em;
+        background-image:linear-gradient( var(--cor-roxo-comum), var(--cor-verde-piscina));
+        border-radius: 50%;
+        animation-name: rodandoSpinnerLoading;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        animation-duration: 1s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        overflow: hidden;
+        
+    }
+    .meioSpinner{
+        
+        position: fixed;
+        top: 1em;
+        /* left: .5em; */
+        /* right: 0px; */
+        transform: translateY(-10px);
+        /* bottom: 0px; */
+        z-index: 1;
+
+        border-radius: 50%;
+        background-color: rgb(255, 255, 255);
+        height: 6.3em;
+        width: 6.3em;
+        box-shadow: 10px 10px  100px rgba(188, 31, 212, 0.39);
+    }
+    
+    .cursorSpinner{      
+        
+        height: 2em;
+        width: 7em;
+        background-color: var(--cor-roxo-comum);
+    }
+    
+
+    @keyframes rodandoSpinnerLoading {
+        0%{ transform: rotate(0deg); }
+        100%{ transform: rotate(360deg); }
+    }
+
 *{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#757375;
@@ -703,6 +763,23 @@ th{
 }
 
 
+.container-checkin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.subcontainer-chekcin{
+    border-radius: 30px;
+    padding: 10px;
+}
+.form-checkin{
+    display: grid;
+
+}
+
+
 .teste-botao:hover{
     background-position: 200% 200%;
     background-image: var(--cor-teste);
@@ -710,6 +787,7 @@ th{
 
 .btn-hoverar:hover{
     animation: flutuando 1s forwards;
+
 }
 
 .modal{
@@ -933,7 +1011,7 @@ th{
     }
 
     .input-style{
-        width: 100%;
+        width:90%;
     }
     .m-2{
         margin: 2px;

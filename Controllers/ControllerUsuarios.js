@@ -4,7 +4,6 @@ const pool = require('../Model/ConnectioDB');
 
 const listaTodosUsuarios = async (request, response) => {
     try {
-        // await pool.connect();
         const resultado = await pool.query('SELECT procedure_busca_usuario()');
 
         const ListaTodosRespostaFinal = resultado.rows[0].procedure_busca_usuario;
@@ -22,7 +21,6 @@ const listaTodosUsuarios = async (request, response) => {
 const listaUsuarioPeloID = async (request, response) => {
     try {
 
-        // await pool.connect();
         const idBuscadoUser = request.params.id_usuario;
 
         const procedureListaID = 'SELECT procedure_busca_usuario_pelo_id($1)';
@@ -43,7 +41,6 @@ const listaUsuarioPeloID = async (request, response) => {
 const listaUsuarioNome = async (request, response) => {
     try {
 
-        // await pool.connect();
         const nomeDoUsuario = request.params.nome_usuario;
 
         const buscaNome = 'SELECT * FROM procedure_busca_usuario_pelo_nome($1)';
@@ -64,7 +61,6 @@ const listaUsuarioNome = async (request, response) => {
 
 const listarUsuariosPaginar = async (request, response) => {
     try {
-        // await pool.connect();
         const valorPagina = request.params.numero_pagina;
 
         const listaDados = 'SELECT * FROM procedure_busca_usuario_paginacao($1 , 9)';
@@ -152,7 +148,6 @@ const adicionarUsuarioECrendencial = async (request, response) => {
 
 
     try {
-        // await pool.connect();
         const ProcedureAddUser = 'SELECT procedure_adicionar_usuario_credencial($1,$2)';
         const values = [infoCrendencial, infoUsuario];
 
@@ -176,7 +171,6 @@ const adicionarUsuarioECrendencial = async (request, response) => {
 const deletarUsuarioECrendecial = async (request, response) => {
     try {
 
-        // await pool.connect();
         const { id_usuario } = request.body;
         let valorId = { id_usuario };
 

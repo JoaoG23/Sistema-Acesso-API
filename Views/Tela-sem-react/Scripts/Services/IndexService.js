@@ -53,42 +53,42 @@ const fechaOsModais = (seletorDeModais) => {
 
 const logarUsuario = async (login, senha) => {
 
-    // MainServices.exibirInformacaoEmElementoTags( '#erroDadosServidor' ,'Loaddinnng .....' );
-    // MainServices.mudarEstado('esconder-modal', 'mostrar-modal', '#modalErro')
-    let dadosValidacao = JSON.stringify({
-        login: login.value,
-        senha: senha.value
-    });
-
-    const configRequisicao = {
-        method: 'POST',
-        body: dadosValidacao,
-        headers: { 'Content-Type': 'application/json' }
-    };
-
-    const endPoint = MainServices.rotaPrincipalAPI();
-
-    const resposta = await MainServices.simplesRequisicao(endPoint + '/init/logar', '', configRequisicao)
-
-    const respostaValidacao = resposta.situacao;
-    const mensagemResposta = resposta.msg;
-    const getToken = resposta.tokenlogado;
-    const nomeUsuario = resposta.usuario;
-
-    let armazenarSessao = localStorage.setItem("token", getToken);
-    let armazenarNomeUsuario = localStorage.setItem("usuario", nomeUsuario);
-
-    console.info('O seu token e esse : ' + getToken);
-
-    // Inserer resposta do back end em modal
-    MainServices.exibirInformacaoEmElementoTags('#sucessoDadosServidor', mensagemResposta);
-    MainServices.exibirInformacaoEmElementoTags('#erroDadosServidor', mensagemResposta);
-
-    // Valida login e exibe modal
-    const validaLoginServido = (dadosValidacao) => {
-
-        const validador = dadosValidacao === true ? (
-            // Mostra modal bom
+     MainServices.mudarEstado('esconder-modal', 'mostrar-modal', '#modalLoading');
+     let dadosValidacao = JSON.stringify({
+         login: login.value,
+         senha: senha.value
+        });
+        
+        const configRequisicao = {
+            method: 'POST',
+            body: dadosValidacao,
+            headers: { 'Content-Type': 'application/json' }
+        };
+        
+        const endPoint = MainServices.rotaPrincipalAPI();
+        
+        const resposta = await MainServices.simplesRequisicao(endPoint + '/init/logar', '', configRequisicao)
+        
+        const respostaValidacao = resposta.situacao;
+        const mensagemResposta = resposta.msg;
+        const getToken = resposta.tokenlogado;
+        const nomeUsuario = resposta.usuario;
+        
+        let armazenarSessao = localStorage.setItem("token", getToken);
+        let armazenarNomeUsuario = localStorage.setItem("usuario", nomeUsuario);
+        
+        console.info('O seu token e esse : ' + getToken);
+        
+        // Inserer resposta do back end em modal
+        MainServices.exibirInformacaoEmElementoTags('#sucessoDadosServidor', mensagemResposta);
+        MainServices.exibirInformacaoEmElementoTags('#erroDadosServidor', mensagemResposta);
+        
+        // Valida login e exibe modal
+        const validaLoginServido = (dadosValidacao) => {
+            
+            const validador = dadosValidacao === true ? (
+                // Mostra modal bom
+            MainServices.mudarEstado('mostrar-modal', 'esconder-modal', '#modalLoading'),
             MainServices.mudarEstado('esconder-modal', 'mostrar-modal', '#modalSuccess'),
             MainServices.redirecionarLocal('./home.html', 1500)
         ) : (

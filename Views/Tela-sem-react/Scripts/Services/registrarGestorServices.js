@@ -1,6 +1,6 @@
 import { MainServices } from "./MainServices.js";
 import { MainTemplates } from '../../Templates/MainTemplates.js';
-import * as Controller from "../Controller/adicionarGestorController.js"
+import * as Controller from "../Controller/registrarGestorController.js";
 
 
 const mostrarUsuarioLogado = (nomeDoUsuario) => {
@@ -72,8 +72,9 @@ const adicionar = ( login, senha, email,  botaoSalvar ) => {
             }
         };
 
-
-
+        // MainServices.mudarEstado('esconder-modal', 'mostrar-modal', '#modalLoading');
+        
+        
             const respostaUsuario = await MainServices.simplesRequisicao( MainServices.rotaPrincipalAPI() + '/init/registrar', '', POST );
 
 
@@ -82,7 +83,7 @@ const adicionar = ( login, senha, email,  botaoSalvar ) => {
                 if (dadosValidacao === true) {
                     // Mostra modal Bom
                     MainServices.mudarEstado('esconder-modal', 'mostrar-modal', '#modalSuccess');
-                    MainServices.redirecionarLocal('./gestores.html', 1000);
+                    MainServices.redirecionarLocal('./index.html', 1000);
                 } else {
                     // Mostra modal Ruin
                     MainServices.mudarEstado('esconder-modal', 'mostrar-modal', '#modalErro');

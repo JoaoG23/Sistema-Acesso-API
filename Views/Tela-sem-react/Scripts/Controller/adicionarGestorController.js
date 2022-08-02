@@ -45,9 +45,6 @@ import { mostrarUsuarioLogado, insererModaisTela, fecharModais, adicionar, liber
         emailInput.addEventListener('input',() => liberaBotao( emailInput ));
         
         adicionar( loginInput, senhaInput , emailInput , botaSalvarDados );
-      //   botaSalvarDados.addEventListener('click' , () => {
-
-      //   })
 
 }
 

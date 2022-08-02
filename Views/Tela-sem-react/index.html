@@ -13,8 +13,33 @@
     <!-- -------- Modais------ -->
     <section id="modalSuccess" class="fundo esconder-modal ">
         <div class="modal">
-             <img src="./Assets/icons/concluido.svg">
+             <!-- <img src="./Assets/icons/concluido.svg"> -->
+             <div class="containerSpinner">
+         
+                 <div class="fundoCirculoSpinner">
+                     <div class="cursorSpinner"></div>
+                     <div class="meioSpinner">
+         
+                     </div>
+                 </div>
+             </div>
             <h2>Logado</h2>
+            <div id="sucessoDadosServidor">
+
+            </div>
+        </div>
+    </section>
+    <section id="modalLoading" class="fundo esconder-modal ">
+        <div class="modal">
+            <h2>Carregando.. </h2>
+            <div class="containerSpinner">
+         
+                <div class="fundoCirculoSpinner">
+                    <div class="cursorSpinner"></div>
+                    <div class="meioSpinner">
+        
+                    </div>
+                </div>
             <div id="sucessoDadosServidor">
 
             </div>
@@ -65,12 +90,10 @@
 
                 <div class='container-grid col-1-2 lacuna-10 my-2'>
                     <button disabled class='btn verdinho texto-branco' id="logar" >Logar<img src='./Assets/icons/login_black_48dp.svg'/></button>
-                    <button class='btn verm texto-branco'>Esqueci minha senha</button>
                 </div>
             </form>
-            <a href="./realizar_checkinacesso.html">
-                <button class="btn amarelo texto-branco">Area de Checkin <img src="./Assets/icons/areaCheckin.svg"></button>
-            </a>
+                <a class='btn verm texto-branco' href="./registrarse.html">Registre-se aqui</a>
+                <a class="btn amarelo texto-branco" href="./realizar_checkinacesso.html">Area de Checkin <img src="./Assets/icons/areaCheckin.svg"></a>
         </section>
     </main>
     <script type="module" src="./Scripts/Controller/indexController.js" defer ></script>

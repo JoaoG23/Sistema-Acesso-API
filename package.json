@@ -4,7 +4,8 @@
   "description": "Um pequeno sistema criado para controle de acesso de pessoas.",
   "main": "app.js",
   "scripts": {
-    "start": "node init.js"
+    "start": "node init.js",
+    "dev":"nodemon init.js"
   },
   "author": "Joao Guilherme",
   "license": "MIT",

@@ -23,10 +23,9 @@ app.use("/auth",auth, routerGestores);
 app.use("/init", routerLogin);
 // 
 app.use('/', express.static(path.join(__dirname, "Views/Tela-sem-react")));
-
+// app.get('/');
 
 let porta = process.env.PORT || 3000;
-// var host = process.env.HOST || '0.0.0.0';
 
 app.listen( porta, () =>{
     console.log("API Sistema Joao Acesso Rodando na porta: ", porta );

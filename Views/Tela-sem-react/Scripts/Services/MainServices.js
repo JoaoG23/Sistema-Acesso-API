@@ -10,7 +10,6 @@ const MainServices = {
     },
 
     logoOut : () => {
-        // MainServices.redirecionarBloquear('./index.html',1000);
          window.localStorage.clear();
     },
 
@@ -85,8 +84,6 @@ const MainServices = {
     },
 
     rotaPrincipalAPI: () => {
-        // console.info(data.rotafront + data.port);
-        //  return data.rotafront + data.port || 'http://localhost:3000';
          return window.location.origin || 'https://localhost:3000';
     },
 
@@ -95,17 +92,19 @@ const MainServices = {
 
             const endpoint = hostname + finalCaminhoAPI;
 
-            // MainServices.exibirInformacaoEmElementoTags( '#erroDadosServidor' ,'Loaddinnng .....' );
-
+            // MainServices.mudarEstado('esconder-modal' ,'mostrar-modal', '#modalLoading');
+            
             const response = await fetch(endpoint, configuracaoRequest);
-
+            
             if( response.status === 401 ){
                 MainServices.exibirInformacaoEmElementoTags( '#erroDadosServidor' ,'Sua sessão expirou, vá se logar de novo!' );
                 MainServices.mudarEstado('esconder-modal' ,'mostrar-modal', '#modalErro');
+                MainServices.mudarEstado('mostrar-modal' ,'esconder-modal', '#modalLoading');
                 MainServices.redirecionarBloquear('./index.html',2000);
                 return;
             }
-
+            
+            // MainServices.mudarEstado('mostrar-modal' ,'esconder-modal', '#modalLoading');
             return response.json();
 
         } catch (error) {

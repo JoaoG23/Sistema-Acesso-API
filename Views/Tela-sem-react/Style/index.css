@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
 
 :root{
     --cor-roxo:linear-gradient( #834bfb , #7334fc);
@@ -59,10 +59,7 @@
         
         position: fixed;
         top: 1em;
-        /* left: .5em; */
-        /* right: 0px; */
         transform: translateY(-10px);
-        /* bottom: 0px; */
         z-index: 1;
 
         border-radius: 50%;
@@ -80,9 +77,21 @@
     }
     
     .imgRegister{
-        width: 27em;
-        opacity: 0.7;
+        display: flex;
+        width: 25em;
+        height: 100vh;
+        opacity: 0.6;
         
+    }
+
+    .imgLogoRegistro{
+        width: 70px;
+    }
+    @media screen and (max-width: 1000px) {
+        
+        .imgRegister{
+            display: none;
+        }
     }
 
     @keyframes rodandoSpinnerLoading {
@@ -91,7 +100,7 @@
     }
 
 *{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Viga', sans-serif;
     color:#757375;
 }
 

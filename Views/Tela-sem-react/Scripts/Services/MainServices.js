@@ -92,19 +92,19 @@ const MainServices = {
 
             const endpoint = hostname + finalCaminhoAPI;
 
-            // MainServices.mudarEstado('esconder-modal' ,'mostrar-modal', '#modalLoading');
+            MainServices.mudarEstado('esconder-modal' ,'mostrar-modal', '#modalLoading');
             
             const response = await fetch(endpoint, configuracaoRequest);
             
-            if( response.status === 401 ){
+            if( response.status >= 400 ){
                 MainServices.exibirInformacaoEmElementoTags( '#erroDadosServidor' ,'Sua sessão expirou, vá se logar de novo!' );
-                MainServices.mudarEstado('esconder-modal' ,'mostrar-modal', '#modalErro');
                 MainServices.mudarEstado('mostrar-modal' ,'esconder-modal', '#modalLoading');
+                MainServices.mudarEstado('esconder-modal' ,'mostrar-modal', '#modalErro');
                 MainServices.redirecionarBloquear('./index.html',2000);
                 return;
             }
             
-            // MainServices.mudarEstado('mostrar-modal' ,'esconder-modal', '#modalLoading');
+            MainServices.mudarEstado('mostrar-modal' ,'esconder-modal', '#modalLoading');
             return response.json();
 
         } catch (error) {

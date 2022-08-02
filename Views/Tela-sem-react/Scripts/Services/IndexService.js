@@ -53,8 +53,6 @@ const fechaOsModais = (seletorDeModais) => {
 
 const logarUsuario = async (login, senha) => {
 
-    // Iniciar carregamento ate que a promise seja resolvida
-     MainServices.mudarEstado('esconder-modal', 'mostrar-modal', '#modalLoading');
 
      let dadosValidacao = JSON.stringify({
          login: login.value,
@@ -90,7 +88,6 @@ const logarUsuario = async (login, senha) => {
             
             const validador = dadosValidacao === true ? (
                 // Mostra modal bom
-            MainServices.mudarEstado('mostrar-modal', 'esconder-modal', '#modalLoading'),
             MainServices.mudarEstado('esconder-modal', 'mostrar-modal', '#modalSuccess'),
             MainServices.redirecionarLocal('./home.html', 1500)
         ) : (

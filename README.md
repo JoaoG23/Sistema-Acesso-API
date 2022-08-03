@@ -31,6 +31,7 @@ Emissão Inicial | 26/03/2022 | 1.0.0
 Finalizado Parcialmente | 21/05/2022 | 1.0.0 
 Adicionado feature disparo de emails | 12/06/2022 | 1.0.1
 Fazendo o Deploy na Nuvem | 22/07/22 | 1.0.1
+Adicionada tela de Registro fora da aplicacao | 03/08/22 | 1.0.1 
 
 ### 👥 Principais Tecnologia usadas até o momento
 #### 🧑‍💻 No front-end

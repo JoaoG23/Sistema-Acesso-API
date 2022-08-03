@@ -1,7 +1,6 @@
 const bcrypt = require('bcryptjs');
 const pool = require('../Model/ConnectioDB');
 const jwt = require('jsonwebtoken');
-const nodeMailer = require('nodemailer');
 const configEmails = require('./ControllerEmails');
 
 const gestoresController = {

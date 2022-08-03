@@ -2,6 +2,7 @@ const bcrypt = require('bcryptjs');
 const pool = require('../Model/ConnectioDB');
 const jwt = require('jsonwebtoken');
 const nodeMailer = require('nodemailer');
+const configEmails = require('./ControllerEmails');
 
 const gestoresController = {
 
@@ -89,17 +90,8 @@ const gestoresController = {
             const resultado = await pool.query( ProcedureRegistrar, values );
             const respostaAdicionado = resultado.rows[0].procedure_registrar_gestor;
 
-            // const buscarConfigsEmail = 'SELECT PROCEDURE_EMAIL_BUSCA()';
+            configEmails.enviarEmail(email,senha,login);
 
-            // const resultadoEmailAchado = await pool.query( buscarConfigsEmail );
-            // const resultBusca = resultadoEmailAchado.rows[0].procedure_email_busca;
-
-            // const user = resultBusca.usuario_email;
-            // const pass = resultBusca.senha_email;
-
-
-
-   
             response.json(respostaAdicionado);
             
         } catch (erro){

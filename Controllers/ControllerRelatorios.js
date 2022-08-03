@@ -2,7 +2,6 @@ const pool = require('../Model/ConnectioDB');
 
 const listaRelatorios = async (request, response) => {
     try {
-        // await pool.connect();
         const resultado = await pool.query('SELECT procedure_relatorios_todos()');
 
         const respostalistaTodos = resultado.rows[0].procedure_relatorios_todos;
@@ -22,7 +21,6 @@ const listaDadosCredencialeData = async (request, response) => {
         const dataDeInicio = request.query.data_inicial;
         const dataDeFinal = request.query.data_final;
 
-        // await pool.connect();
 
         let values = [ credencial ,dataDeInicio , dataDeFinal ];
 

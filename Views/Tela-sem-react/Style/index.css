@@ -847,7 +847,7 @@ th{
 
 .mostrar-modal{
     display: flex;
-    animation: entradaSuave 0.1s forwards;
+    animation: entradaSuave 600ms forwards;
 }
 
 .esconder-modal{

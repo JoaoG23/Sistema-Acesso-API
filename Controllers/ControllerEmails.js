@@ -1,9 +1,10 @@
+const nodeMailer = require('nodemailer');
+const gerarTemplateEmail = require('./TemplateMsgEmail');
 const pool = require('../Model/ConnectioDB');
-const configEmails = {
+const emailsController = {
 
     buscarConfigsTestAPI: async function ( request, response ) { 
         try {
-            // await pool.connect();
             const procedure = 'SELECT PROCEDURE_EMAIL_BUSCA()';
             
             const resultado = await pool.query( procedure );
@@ -39,8 +40,10 @@ const configEmails = {
     },
 
 
-    enviarEmail:async function () {
+    enviarEmail:async function ( emailDestino,senha,login ) {
 
+        const loginUsuario = login;
+        const senhaUsuario = senha;
         
         const buscarConfigsEmail = 'SELECT PROCEDURE_EMAIL_BUSCA()';
 
@@ -56,41 +59,16 @@ const configEmails = {
             auth:{ user, pass }
         })
 
+
         transporter.sendMail({
             from:user,
-            to:email,
-            subject:`Boas Vinda! ${login} ao Sistema João Acesso`,
-            html:`
-            <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Email</title>
-</head>
-<body>
-<main>
-    <h1>Olá, ${login} meu caro</h1>
-    <h2>Tudo bem?! </h2>
-    <h4>Você foi cadastrado no Sistema de Segurança e Controle de Acessos João Acesso </h4><h5>Aqui abaixo terá algumas informações sigilosas do acesso ao sistema tome cuidado</h5>
-    <b>Seu usuário é : </b>${login}
-    <b>Sua senha  é : </b>${senha}
-</main>
-<section>
-    <p>Guarde ela bem guardada!</p>
-    <b><i>A equipe do Sistema João Acesso agradeçe !</i></b>
-    <p>Atenciosamente</p>
-    <div>
-        <img width=120 height=120 src='https://raw.githubusercontent.com/JoaoG23/Joao-Acesso/main/Documents/Assets/logo.png'>
-    </div>
-</section>
-</body>
-</html> `
+            to:emailDestino,
+            subject:gerarTemplateEmail(loginUsuario,senhaUsuario)[0],
+            html:gerarTemplateEmail(loginUsuario,senhaUsuario)[1]
 
         }).then(info => {console.info(info)}).catch(erro => {console.error(erro)});
 
     }
 }
 
-module.exports = configEmails;
+module.exports = emailsController;

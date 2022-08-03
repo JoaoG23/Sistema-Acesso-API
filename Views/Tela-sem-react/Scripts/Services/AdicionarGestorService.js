@@ -74,7 +74,7 @@ const adicionar = ( login, senha, email,  botaoSalvar ) => {
 
 
 
-            const respostaUsuario = await MainServices.simplesRequisicao( MainServices.rotaPrincipalAPI() + '/init/registrar', '', POST );
+            const respostaUsuario = await MainServices.simplesRequisicao( MainServices.rotaPrincipalAPI() + '/auth/registrar', '', POST );
 
 
             const validaEdicao = ( dadosValidacao ) => {

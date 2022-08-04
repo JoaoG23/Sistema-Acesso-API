@@ -17,6 +17,8 @@ function acessosController() {
 
    const dataInicial = document.querySelector('#data_inicio');
    const dataFinal = document.querySelector('#data_fim');
+
+   
    const codigoCredencial = document.querySelector('#codigo_credencial');
    const botaoPdf = document.querySelector('#pdf');
    const botaoCSV = document.querySelector('#csv');

@@ -53,7 +53,7 @@ const fechaOsModais = (seletorDeModais) => {
 
 const logarUsuario = async (login, senha) => {
 
-
+    MainServices.mudarEstado('esconder-modal' ,'mostrar-modal', '#modalLoading'); 
     
      let dadosValidacao = JSON.stringify({
          login: login.value,
@@ -89,11 +89,12 @@ const logarUsuario = async (login, senha) => {
             
             const validador = dadosValidacao === true ? (
                 // Mostra modal bom
-                // MainServices.mudarEstado('mostrar-modal' ,'esconder-modal', '#modalLoading'); // Depois implementar o loading LEMBRETE
+                MainServices.mudarEstado('mostrar-modal' ,'esconder-modal', '#modalLoading'), // Depois implementar o loading LEMBRETE
             MainServices.mudarEstado('esconder-modal', 'mostrar-modal', '#modalSuccess'),
             MainServices.redirecionarLocal('./home.html', 1500)
         ) : (
             // Mostra modal Ruin
+            MainServices.mudarEstado('mostrar-modal' ,'esconder-modal', '#modalLoading'),
             MainServices.mudarEstado('esconder-modal', 'mostrar-modal', '#modalErro')
         );
 

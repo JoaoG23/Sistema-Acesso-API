@@ -95,7 +95,7 @@ const MainServices = {
             
             const response = await fetch(endpoint, configuracaoRequest);
             
-            if( response.status >= 400 ){
+            if( response.status === 401 ){
                 MainServices.exibirInformacaoEmElementoTags( '#erroDadosServidor' ,'Sua sessão expirou, vá se logar de novo!' );
                 MainServices.mudarEstado('esconder-modal' ,'mostrar-modal', '#modalErro');
                 MainServices.redirecionarBloquear('./index.html',2000);

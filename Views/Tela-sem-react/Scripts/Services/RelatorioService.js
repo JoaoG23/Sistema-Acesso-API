@@ -31,12 +31,33 @@ const sairPagina = () => {
 
 
 
+
 const gerarRelatorio = async ( informacoes, desmonstrador = 'csv' ) => {
+
 
 
 
     const inicioData = informacoes.dataInicial.value;
     const finalData = informacoes.dataFinal.value;
+
+    if (!inicioData) {
+        MainServices.exibirInformacaoEmElementoTags('#erroDadosServidor', 'Coloque uma data de inicio! Por gentileza');
+        MainServices.mudarEstado('esconder-modal' ,'mostrar-modal', '#modalErro');
+        setTimeout(() => {
+            MainServices.mudarEstado('mostrar-modal' ,'esconder-modal', '#modalErro');
+        }, 2000);
+        return;
+    }
+
+    if (!finalData) {
+        MainServices.exibirInformacaoEmElementoTags('#erroDadosServidor', 'Coloque uma data de final! Por gentileza');
+        MainServices.mudarEstado('esconder-modal' ,'mostrar-modal', '#modalErro');
+        setTimeout(() => {
+            MainServices.mudarEstado('mostrar-modal' ,'esconder-modal', '#modalErro');
+        }, 2000);
+        return;
+    }
+
     const numero_credencial = informacoes.numeroCredencial.value;
 
     const GET = {

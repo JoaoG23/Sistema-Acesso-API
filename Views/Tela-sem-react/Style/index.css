@@ -26,6 +26,15 @@
 }
 
 
+.acessoBarradoStyle td{
+    color:rgb(231, 14, 14);
+}
+.acessoLiberadoStyle td{
+    color:rgb(24, 193, 12);
+}
+
+
+
     .containerSpinner {
         background-color: rgb(255, 255, 255);
         display: flex;
@@ -250,9 +259,10 @@ th{
     border: none;
     margin: 5px;
     padding: 5px;
+    background-color: var(--cor-branco);
     color:var(--cor-cinza);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border:2px solid var(--cor-roxo-comum);
+    border:1px solid var(--cor-roxo-comum);
     
 }
 .input-style:focus{
@@ -568,6 +578,9 @@ th{
     grid-template-columns:1fr 1fr 1fr ;
 }
 
+.lacuna-05{
+    gap:5px;
+}
 .lacuna-10{
     gap:10px;
 }
@@ -847,7 +860,7 @@ th{
 
 .mostrar-modal{
     display: flex;
-    animation: entradaSuave 600ms forwards;
+    animation: entradaSuave 50ms forwards;
 }
 
 .esconder-modal{
@@ -1004,7 +1017,7 @@ th{
     }
     .mini-container{
         width: 70px;
-        height: 180px;
+        height: 16em;
     }
     .quadro-home-cards{
         display:flex;

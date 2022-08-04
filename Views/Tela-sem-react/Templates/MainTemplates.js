@@ -14,9 +14,6 @@ const MainTemplates = {
         
                     </div>
                 </div>
-            <div id="sucessoDadosServidor">
-       
-            </div>
         </div>
        </section>
 

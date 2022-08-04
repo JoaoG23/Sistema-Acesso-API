@@ -22,7 +22,7 @@ window.addEventListener( 'DOMContentLoaded', () => { monitorController() });
       
       const ultimo = document.querySelector('[root]');
       
-      setInterval(() => ultimoAcesso( ultimo ), 4000);
+      ultimoAcesso( ultimo );
     
 
 }

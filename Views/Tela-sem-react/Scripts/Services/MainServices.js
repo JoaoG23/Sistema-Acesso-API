@@ -89,20 +89,22 @@ const MainServices = {
 
     simplesRequisicao: async ( hostname, finalCaminhoAPI, configuracaoRequest ) => {
         try {
-
+            
+            MainServices.mudarEstado('esconder-modal' ,'mostrar-modal', '#modalLoading');
             const endpoint = hostname + finalCaminhoAPI;
-
+            
             
             const response = await fetch(endpoint, configuracaoRequest);
-            
+
             if( response.status === 401 ){
+                MainServices.mudarEstado('mostrar-modal' ,'esconder-modal', '#modalLoading');
                 MainServices.exibirInformacaoEmElementoTags( '#erroDadosServidor' ,'Sua sessão expirou, vá se logar de novo!' );
                 MainServices.mudarEstado('esconder-modal' ,'mostrar-modal', '#modalErro');
                 MainServices.redirecionarBloquear('./index.html',2000);
                 return;
             }
             
-            
+            MainServices.mudarEstado('mostrar-modal' ,'esconder-modal', '#modalLoading');
             return response.json();
 
         } catch (error) {
@@ -114,6 +116,7 @@ const MainServices = {
 
     requisicaoComplexa: async (hostname, configuracaoRequest) => {
         try {
+
 
             const protocolo = hostname.protocolo;
             const host = hostname.host;

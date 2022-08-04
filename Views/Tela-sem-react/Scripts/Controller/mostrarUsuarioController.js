@@ -1,9 +1,12 @@
 
-import { mostrarTodosDados , mostrarUsuarioLogado } from '../Services/mostrarUsuarioService.js'
+import { mostrarTodosDados , mostrarUsuarioLogado, insererModaisTela } from '../Services/mostrarUsuarioService.js'
 
 window.addEventListener( 'load', mostraUsuarioController);
 
 function mostraUsuarioController() {
+
+    const modaisDemostrador = document.querySelector('[root-modal]');
+    insererModaisTela( modaisDemostrador );
 
     const btnLogOut = document.querySelector('[logout]');
     btnLogOut.addEventListener('click' , () => {finalizarSessao()});

@@ -32,6 +32,7 @@ Finalizado Parcialmente | 21/05/2022 | 1.0.0
 Adicionado feature disparo de emails | 12/06/2022 | 1.0.1
 Fazendo o Deploy na Nuvem | 22/07/22 | 1.0.1
 Adicionada tela de Registro fora da aplicacao | 03/08/22 | 1.0.1 
+Corrigindo alguns bugs | 04/08/22 | 1.0.1 
 
 ### 👥 Principais Tecnologia usadas até o momento
 #### 🧑‍💻 No front-end
@@ -156,20 +157,33 @@ Clique logo abaixo para ver o tutorial sobre o sistema.
 
 
 ### 1-Iniciando o servidor
+Se quizer instalar localmente..
   
-  Entre pasta **Aplics** e  digite seguinte comando abaixo no terminal :
+  Entre pasta **Joao Acesso** e  digite seguinte comando abaixo no terminal :
 
         node init.js
 
 
 Aparecerá  API Sistema Joao Acesso Rodando na porta:  3000
 em seguida digite na URL : http://localhost:3000/index.html.
+
+ou pode acessar agora em  <a href="https://pr-joao-acesso.herokuapp.com">Clique aqui para Teste Tempo Real 🥳👈</a>
+
 ### 2- Entrar no login
 <img  align=center src="./Documents/Assets/Login.GIF">
 
 Na primeira tela e a de login. 
 
-Digite **admin** senha e login, para o primeiro acesso.
+
+#### Registrar 
+
+1- Clique no botão vermelho **registrer-se** aqui..
+<img align=center src="./Documents/Assets/registra.png">
+
+2-Os Preencha os campos..FOOOOI Salvado
+<img align=center src="./Documents/Assets/salva.png">
+
+3 - Digite senha e login, para o primeiro acesso.
 <h3><a href="https://pr-joao-acesso.herokuapp.com">Clique aqui para Teste Tempo Real 🥳👈</a><h4>
 
 ### Conceito inicial 💡

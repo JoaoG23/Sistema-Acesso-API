@@ -21,12 +21,12 @@ window.addEventListener( 'DOMContentLoaded', () => { acessosController() });
       btnLogOut.addEventListener('click' , () => {finalizarSessao()});
       
        const demonstrador = document.querySelector('[root]');
+       window.addEventListener('load', () => acessosTodos( demonstrador ));
        
-       acessosTodos( demonstrador );
        setInterval(() => {
-         limpaTela( demonstrador ) 
-         acessosTodos( demonstrador )
-          }, 12000);
+         limpaTela( demonstrador );
+         acessosTodos( demonstrador );
+          }, 9000);
 
          
        const modaisDemostrador = document.querySelector('[root-modal]');

@@ -1,11 +1,17 @@
 import { informacoesUsuario } from '../../Templates/MostraUsuarioTemplate.js'
 import { MainServices } from "./MainServices.js";
+import { MainTemplates } from '../../Templates/MainTemplates.js';
 import * as Controller from '../Controller/mostrarUsuarioController.js'
+
+const insererModaisTela = (exibidor) => {
+    MainTemplates.criarModaisTodos(exibidor);
+}
 
 let idEncontrado = MainServices.buscaID('#'); 
 
 const mostrarTodosDados = async ( desmonstrador ) => {
 
+    
     const GET = {
         method: 'GET',
         headers: { 
@@ -28,4 +34,7 @@ const finalizarSessao = () => {
     return MainServices.logoOut();
 }
 
-export { finalizarSessao, mostrarTodosDados, mostrarUsuarioLogado }
+export { finalizarSessao,
+     mostrarTodosDados,
+    mostrarUsuarioLogado,
+    insererModaisTela }

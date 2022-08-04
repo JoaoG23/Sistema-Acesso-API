@@ -1,6 +1,44 @@
-function insererTabela( dados, ondeSeraExibido ) {
-    let tabela = `
-<tr>
+// function insererTabela( dados, ondeSeraExibido ) {
+//     let tabela = `
+// <tr>
+//     <td>${dados.situacao_do_acesso}</td>
+//     <td>${dados.nome_acesso}</td>
+//     <td>${dados.sobrenome_acesso}</td>
+//     <td>${dados.credencial_acesso}</td>
+//     <td>${dados.situacao_credencial}</td>
+//     <td>${dados.direcao}</td>
+//     <td>${dados.data_acesso}</td>
+//     <td>${dados.restam_acessos}</td>
+//     <td>${dados.situacao_afastamento}</td>
+// </tr>
+//     `;
+//     exiberNaTela( tabela, ondeSeraExibido );
+//     function exiberNaTela( template, exibidor ) {
+//         exibidor.innerHTML += template;
+//     }
+// }
+
+function insererTabela(dados, ondeSeraExibido) {
+
+    let tabela = '';
+    if (dados.situacao_do_acesso === 'ACESSO BARRADO') {
+        tabela = `
+        <tr class='acessoBarradoStyle'>
+        <td>${dados.situacao_do_acesso}</td>
+        <td>${dados.nome_acesso}</td>
+        <td>${dados.sobrenome_acesso}</td>
+        <td>${dados.credencial_acesso}</td>
+        <td>${dados.situacao_credencial}</td>
+        <td>${dados.direcao}</td>
+        <td>${dados.data_acesso}</td>
+        <td>${dados.restam_acessos}</td>
+        <td>${dados.situacao_afastamento}</td>
+        </tr>
+        `;
+    } else if ( dados.situacao_do_acesso === 'ACESSO LIBERADO' ){
+
+        tabela = `
+    <tr class='acessoLiberadoStyle'>
     <td>${dados.situacao_do_acesso}</td>
     <td>${dados.nome_acesso}</td>
     <td>${dados.sobrenome_acesso}</td>
@@ -10,15 +48,31 @@ function insererTabela( dados, ondeSeraExibido ) {
     <td>${dados.data_acesso}</td>
     <td>${dados.restam_acessos}</td>
     <td>${dados.situacao_afastamento}</td>
-</tr>
+    </tr>
     `;
-    exiberNaTela( tabela, ondeSeraExibido );
-    function exiberNaTela( template, exibidor ) {
+    } else {
+        tabela = `
+        <tr>
+        <td>${dados.situacao_do_acesso}</td>
+        <td>${dados.nome_acesso}</td>
+        <td>${dados.sobrenome_acesso}</td>
+        <td>${dados.credencial_acesso}</td>
+        <td>${dados.situacao_credencial}</td>
+        <td>${dados.direcao}</td>
+        <td>${dados.data_acesso}</td>
+        <td>${dados.restam_acessos}</td>
+        <td>${dados.situacao_afastamento}</td>
+        </tr>
+        `;
+    }
+
+    exiberNaTela(tabela, ondeSeraExibido);
+    function exiberNaTela(template, exibidor) {
         exibidor.innerHTML += template;
     }
 }
 
-function insererUtimo( dados, ondeSeraExibido ) {
+function insererUtimo(dados, ondeSeraExibido) {
     let lista = `
     <li class="fonte-grande texto-azul">Situacão : ${dados.situacao_do_acesso}</li>
     <li>Nome: ${dados.nome_acesso}</li>
@@ -30,13 +84,13 @@ function insererUtimo( dados, ondeSeraExibido ) {
     <li>Quantos acessos restam : ${dados.restam_acessos}</li>
     <li>Tipo de afastamento : ${dados.situacao_afastamento}</li>
     `;
-    exiberNaTela( lista, ondeSeraExibido );
-    function exiberNaTela( template, exibidor ) {
+    exiberNaTela(lista, ondeSeraExibido);
+    function exiberNaTela(template, exibidor) {
         exibidor.innerHTML = template;
     }
 }
 
-function mostrarFullScreen( dados, ondeSeraExibido ) {
+function mostrarFullScreen(dados, ondeSeraExibido) {
     let modal = `
 
     <div class="telaCheia">
@@ -56,16 +110,16 @@ function mostrarFullScreen( dados, ondeSeraExibido ) {
             </a>
     </div>
 `;
-    exiberNaTela( modal, ondeSeraExibido );
-    function exiberNaTela( template, exibidor ) {
+    exiberNaTela(modal, ondeSeraExibido);
+    function exiberNaTela(template, exibidor) {
         exibidor.innerHTML = template;
     }
 }
 
-function limpaTela( ondeSeraExibido ) {
+function limpaTela(ondeSeraExibido) {
 
-    exiberNaTela( '', ondeSeraExibido );
-    function exiberNaTela( template, exibidor ) {
+    exiberNaTela('', ondeSeraExibido);
+    function exiberNaTela(template, exibidor) {
         exibidor.innerHTML = template;
     }
 }

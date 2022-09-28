@@ -12,7 +12,7 @@ const { Pool } = require('pg');
     // ssl: {
     //     rejectUnauthorized: false,
     // }
-    // ssl: false
+    ssl: false
 });
 
 module.exports =  poolConexao ;

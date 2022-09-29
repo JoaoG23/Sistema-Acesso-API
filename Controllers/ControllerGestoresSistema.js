@@ -135,7 +135,8 @@ const gestoresController = {
             );
 
         } catch (erro) {
-            response.status(404).json({situacao:false , msg:"Usuario ou senha inexistente com algum erro"});
+            // response.status(404).json({situacao:false , msg:"Usuario ou senha inexistente com algum erro"});
+            response.status(404).json(erro);
             console.error(erro);
         }
     }

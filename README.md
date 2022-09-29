@@ -1,14 +1,12 @@
 
 <div  align=center >
 
-<h1>API João Acesso<h1>
+<h1>API João Acesso 🧬<h1>
 
-   <img width="400px" src="./Documents/Assets/logo.png">
-
-</div>
+<img width="300px" src="./Documents/Assets/logo-api.svg" />
 
 
-## Indice 👨‍💻
+### Indice 👨‍💻
 
 <p align="center">
  <li> <a href="#introdução">1 - 🚪Introdução</a> •</li>
@@ -27,23 +25,15 @@
 
 Alterações   | Data | Versão
 :---------: | :------: | :------:
-Emissão Inicial | 26/03/2022 | 1.0.0
-Finalizado Parcialmente | 21/05/2022 | 1.0.0 
-Adicionado feature disparo de emails | 12/06/2022 | 1.0.1
+Dismebramento entre API e Frontend | 29/09/22 | 1.0.1 
 Fazendo o Deploy na Nuvem | 22/07/22 | 1.0.1
-Adicionada tela de Registro fora da aplicacao | 03/08/22 | 1.0.1 
+Adicionado feature disparo de emails | 12/06/2022 | 1.0.1
+Finalizado Parcialmente | 21/05/2022 | 1.0.0 
 Corrigindo alguns bugs | 04/08/22 | 1.0.1 
+Adicionada tela de Registro fora da aplicacao | 03/08/22 | 1.0.1 
+Emissão Inicial | 26/03/2022 | 1.0.0
 
 ### 👥 Principais Tecnologia usadas até o momento
-#### 🧑‍💻 No front-end
-
-<div>
-        <img width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" />
-        <img width="70px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
-        <img width="65px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-</div>
-
-### 🥵🧑‍🏭 No Back-end
 
 <section>  
 
@@ -68,15 +58,9 @@ Corrigindo alguns bugs | 04/08/22 | 1.0.1
 <h2 id='introdução' color=green ><b>1 - introdução</b></h2>
 
 
-<img  align=center src="./Documents/Assets/Apresentacao.gif">
 
-
-Acumulando o mínimo de conhecimento de sistema de controle de acesso. Estou desenvolvendo meu proprio sistema de contole de acesso. Para testar minha capacidade de desenvolvimento com NodeJS. 
-Então, depois de compartilhar um pouco, por qual sentido desta criacão, vou apresenta o que temos até agora.
-
-Este sistema de Segurança e Controle de Acesso, cujo o intuito e controlar o fluxo de pessoas em um estabelecimento.
-
-
+Acumulando o mínimo de conhecimento de sistema de controle de acesso. Estou desenvolvendo meu proprio sistema de contole de acesso.
+Nessa para se localiza a API do projeto. Devido a dismebração ocorrida no dia **29/09/22**
 
 
 <h2 id='desenvolvimento'><b>2- Desenvolvimento 🥵🧑‍🏭</b></h2>
@@ -151,9 +135,8 @@ Teste, ***Insomnia ou postman*** de sua preferencia.
 <h2 id='usar'><b>4- Como usar 👩‍💻</b></h2>
 Veja mais na documentação da Aplicação
 
-<!-- Clique logo abaixo para ver o tutorial sobre o sistema. -->
-<!-- <h3><a href="">Clique aqui para Teste Tempo Real 🥳👈</a><h4> -->
- 
+Clique logo abaixo para ver o tutorial sobre o sistema.
+<h3><a href="https://github.com/JoaoG23/Joao-AcessoFrontend">Clique aqui aprender com usar a solução👈</a><h4>
 
 
 <h2 id='consideraçoesfinais'><b>5 -🥺😭 Considerações finais</b></h2>

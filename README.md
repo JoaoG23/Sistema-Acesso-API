@@ -1,7 +1,7 @@
 
 <div  align=center >
 
-<h1>API João Acesso 🧬<h1>
+<h1>API Acessos 🧬<h1>
 
 <img width="300px" src="./Documents/Assets/logo-api.svg" />
 
@@ -79,7 +79,7 @@ Novamente, como sempre como nos projetos anteriores utilizei arquitura **MVC**
 
 3. Restaure um backup do banco de dados postegresql. Localizado no caminho abaixo:
 
-        Sistema-joao-acesso\Aplics\Model\18052022-dbjoaoacesso-c.sql
+        \Model\18052022-dbjoaoacesso-c.sql
 
 <img  align=center src="./Documents/Assets/pgtutorial.png">
 
@@ -87,7 +87,7 @@ Novamente, como sempre como nos projetos anteriores utilizei arquitura **MVC**
 
 5. Em seguida entre dentro da pasta **Aplics**.
 
-        \Sistema-joao-acesso\Aplics    
+        \    
 
 6. **ATENCAO** Após isso digite o npm install dotenv se caso o dotenv nao for instalado dentro da pasta Aplics.
 

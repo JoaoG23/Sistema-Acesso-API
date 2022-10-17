@@ -8,11 +8,9 @@ const { Pool } = require('pg');
     idleTimeoutMillis: 0,
     connectionTimeoutMillis: 0,
     max: 10,
-    // max_connections:30000,
     ssl: {
         rejectUnauthorized: false,
     }
-    // ssl: false
 });
 
 module.exports =  poolConexao ;

@@ -1,5 +1,5 @@
 {
-  "name": "joao-acesso",
+  "name": "acessos",
   "version": "1.0.0",
   "description": "Um pequeno sistema criado para controle de acesso de pessoas.",
   "main": "app.js",
